@@ -1,0 +1,8 @@
+<formats>
+    <format id="MOVIE_VIDEO_CLASSIC" mainFile="sample1.png"/>
+    <format id="MOVIE_SUBTITLES_CLASSIC" mainFile="sample2.png"/>
+    <format id="MOVIE_VIDEO_MOBILE" mainFile="sample3.png"/>
+    <format id="MOVIE_SUBTITLES_MOBILE" mainFile="sample4.png"/>
+    <format id="test" mainFile="sample5.png"/>
+    <alternatives exist="true"/>
+</formats>

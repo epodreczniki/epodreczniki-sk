@@ -1,0 +1,9 @@
+{
+    "engine": "womi_exercise_engine",
+    "version": "0.1",
+    "mainFile": "index.html",
+    "parameters": {
+        "moj_parametr": 12345678
+    },
+    "womiIds": [3959,2350]
+}

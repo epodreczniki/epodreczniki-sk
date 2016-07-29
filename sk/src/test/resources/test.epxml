@@ -1,0 +1,1245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns:cnxml="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml"
+          xmlns:q="http://cnx.rice.edu/qml/1.0"
+          xmlns:ep="http://epodreczniki.pl/"
+          xmlns="http://cnx.rice.edu/cnxml"
+          xmlns:mml="http://www.w3.org/1998/Math/MathML"
+          id="izlSiytlDl"
+          module-id="izlSiytlDl"
+          cnxml-version="0.7">
+   <title>Przygotowanie dokumentu MS Word na potrzeby platformy e-podręczniki</title>
+   <metadata mdml-version="0.5">
+      <md:content-id>izlSiytlDl</md:content-id>
+      <md:repository>?</md:repository>
+      <md:version>?</md:version>
+      <md:created>2013:06:17 12:22</md:created>
+      <md:revised>2013:06:17 13:18</md:revised>
+      <md:title>Przygotowanie dokumentu MS Word na potrzeby platformy e-podręczniki</md:title>
+      <md:language>pl</md:language>
+      <md:license url="http://www.epodreczniki.pl/licencja"/>
+      <md:actors>
+         <md:person userid="author">
+            <md:fullname>? ?</md:fullname>
+            <md:firstname>?</md:firstname>
+            <md:surname>?</md:surname>
+            <md:email>docentt@man.poznan.pl</md:email>
+         </md:person>
+      </md:actors>
+      <md:roles>
+         <md:role type="author">author</md:role>
+      </md:roles>
+      <md:keywordlist>
+         <md:keyword>?</md:keyword>
+         <md:keyword>?</md:keyword>
+      </md:keywordlist>
+      <ep:e-textbook-module ep:version="0.7" ep:recipient="student" ep:content-status="canon"/>
+   </metadata>
+   <content>
+      <section id="d3e11">
+         <title>Wstęp</title>
+         <para id="d18e1">Dokument ten zawiera opis sposobu przygotowania treści tekstowych będących podstawowymi elementami składowymi e-podręcznika. W dokumencie znalazły się wskazówki ogólne, jak również  informacje na temat instalacji oraz prawidłowego zastosowania stylów pozwalającego na przygotowanie źródła e-podręcznika w postaci dokumentu w formacie MS Word 2007 (<term>Office Open XML Document</term>). <emphasis>Zarówno dokument, jak i zestaw opisanych stylów nie jest jeszcze wersją finalną</emphasis>, dlatego też należy spodziewać się ich aktualizacji.<newline/>
+            <table id="d26d2e141" summary="Tabela zawierająca opis wersji dokumentu.">
+               <title>Wersje dokumentu</title>
+               <tgroup cols="4">
+                  <colspec colnum="1" colname="c1"/>
+                  <colspec colnum="2" colname="c2"/>
+                  <colspec colnum="3" colname="c3"/>
+                  <colspec colnum="4" colname="c4"/>
+                  <thead>
+                     <row>
+                        <entry>Data</entry>
+                        <entry>Wersja</entry>
+                        <entry>Autor/autorzy</entry>
+                        <entry>Opis zmian</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>15.03.2013</entry>
+                        <entry>1.0</entry>
+                        <entry>Tomasz Kuczyński</entry>
+                        <entry>Pierwsza wersja dokumentu</entry>
+                     </row>
+                     <row>
+                        <entry>19.03.2013</entry>
+                        <entry>1.01</entry>
+                        <entry>Tomasz Kuczyński</entry>
+                        <entry>Uwzględnienie komentarzy otrzymanych z Politechniki Łódzkiej:- dodanie stylu komentarzy edycyjnych,- rozszerzenie opisu stylów ćwiczenia,- dodanie informacji na temat unikania stosowania określeń tekstowych nadających znaczenie akapitów, których znaczenie jest już określone stylami podstawowymi.</entry>
+                     </row>
+                     <row>
+                        <entry>10.04.2013</entry>
+                        <entry>1.1</entry>
+                        <entry>Tomasz Kuczyński</entry>
+                        <entry>Uwzględnienie komentarzy, które pojawiły się w trakcie spotkania w Poznaniu:- możliwość definiowania szerokości WOMI (dotyczy ilustracji/filmów/obiektów interaktywnych).Uwzględnienie komentarzy otrzymanych z Politechniki Łódzkiej:- usunięcie stylu tekstu alternatywnego dla wyrażeń matematycznych.Uwzględnienie komentarzy otrzymanych od Grupy Edukacyjnej:- udostępnienie referencji WOMI w formie zredukowanej,- dodanie możliwości powiązania tekstu z nagraniem czytanym przez lektora.Uwzględnienie komentarzy z Uniwersytetu Przyrodniczego:- możliwość przypisania autora do cytatu.Dodanie sekcji dotyczącej metadanych modułu treści oraz makra do ich generacji.</entry>
+                     </row>
+                     <row>
+                        <entry>22.04.2013</entry>
+                        <entry>1.11</entry>
+                        <entry>Tomasz Kuczyński</entry>
+                        <entry>Poprawienie referencji do zakładek w sekcji Style komentarzy/Definiowanie atrybutów treści podstawowej/Słowniczek</entry>
+                     </row>
+                     <row>
+                        <entry>23.04.2013</entry>
+                        <entry>1.12</entry>
+                        <entry>Tomasz Kuczyński</entry>
+                        <entry>Dodanie typu WŁASNOŚĆ do reguły (na wniosek Politechniki Łódzkiej).</entry>
+                     </row>
+                     <row>
+                        <entry>29.04.2013</entry>
+                        <entry>1.13</entry>
+                        <entry>Tomasz Kuczyński</entry>
+                        <entry>Usunięcie możliwości przetwarzania łączy do zasobów zewnętrznych.</entry>
+                     </row>
+                     <row>
+                        <entry>30.04.2013</entry>
+                        <entry>1.14</entry>
+                        <entry>Tomasz Kuczyński</entry>
+                        <entry>Doprecyzowanie informacji na temat wprowadzania separatora między tabele (w tym między referencje do WOMI).</entry>
+                     </row>
+                     <row>
+                        <entry>08.05.2013</entry>
+                        <entry>1.15</entry>
+                        <entry>Tomasz Kuczyński</entry>
+                        <entry>Doprecyzowanie informacji na temat lokalnie zdefiniowanej widoczności treści.</entry>
+                     </row>
+                     <row>
+                        <entry>27.05.2013</entry>
+                        <entry>1.16</entry>
+                        <entry>Tomasz Kuczyński</entry>
+                        <entry>Poprawienie błędu niepoprawnego wykorzystania separatorów w definicji ćwiczenia.</entry>
+                     </row>
+                     <row>
+                        <entry>17.06.2013</entry>
+                        <entry>1.17</entry>
+                        <entry>Tomasz Kuczyński</entry>
+                        <entry>Wstawienie referencji do rzeczywistych WOMI w miejsce dotychczasowych WOMI fikcyjnych.</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </para>
+         <section id="d3e21">
+            <title>Informacje ogólne</title>
+            <para id="d86e1">Style powstałe na potrzeby konwersji dokumentu w formacie MS Word do wewnętrznego formatu platformy e-podręczników zostały przygotowane w formie zestawu stylów szybkich, które można zastosować w stosunku do stworzonego wcześniej, lub tworzonego od początku dokumentu.<newline/>Zestaw zawiera zarówno style o specjalnym znaczeniu (style o nazwach zaczynających się od dużych liter <emphasis>EP</emphasis>, <emphasis>EPK</emphasis> oraz <emphasis>EPQ</emphasis>) oraz wybrane standardowe style MS Word. </para>
+            <note id="d98e1" type="important">Konwerter <emphasis>ignoruje</emphasis> wszelkie style spoza listy, jak również ręczne formatowanie tekstu.</note>
+            <note id="d104e1" type="important">
+               <emphasis>Na obecnym etapie</emphasis> przewidujemy funkcjonalność przetwarzania przez konwerter plików MS Word zawierających pojedyncze moduły treści, w związku z tym <emphasis>nie należy stosować</emphasis> następujących stylów: EP Tytuł rozdziału, EP Tytuł podrozdziału 1, EP Tytuł podrozdziału 2. Ponadto plik powinien zawierać <emphasis>tylko jeden akapit</emphasis> sformatowany z wykorzystaniem stylu EP Tytuł modułu, który powinien znajdować się <emphasis>na samym początku pliku</emphasis>.</note>
+            <para id="d116e1">Niniejszy dokument został sformatowany z wykorzystaniem opisywanych stylów i może służyć jako przykład ich zastosowania. Dokument zawiera ponadto <link target-id="iXNJLgt7fA">opis konfiguracji środowiska</link> pracy, <link target-id="iJ4TcqBzcA">przykłady zastosowania stylów</link>, które nie zostały zastosowane w opisie oraz <link target-id="iMgdu6OmE0">ogólne wskazówki dotyczące edycji</link>.</para>
+         </section>
+         <section id="d3e46">
+            <title>Konfiguracja</title>
+            <para id="iXNJLgt7fA"/>
+            <para id="d130e1">Lokalizacja poszczególnych elementów interfejsu, opcje oraz nazwy pochodzące z programu MS Word wykorzystane w tym opisie odnoszą się do pakietu MS Office w wersji 2010. W celu odnalezienia poszczególnych opcji w innych wersjach pakietu MS Office należy skorzystać z opcji pomoc.</para>
+            <section id="d3e56">
+               <title>Instalacja</title>
+               <para id="d137e1">Aby zainstalować <term>zestaw stylów szybkich e-podręczniki</term>, należy postąpić w jeden z opisanych poniżej sposobów.<newline/>Sposób 1:<newline/>
+                  <list id="d137e5" list-type="enumerated" number-style="arabic" mark-suffix=".">
+                     <item>przekopiować plik <emphasis>E-podręczniki v20130412.dotx</emphasis> do katalogu stylów szybkich programu MS Word (<emphasis>%APPDATA%\Microsoft\QuickStyles</emphasis>),</item>
+                     <item>ze wstążki wybrać kartę <emphasis>Narzędzia Główne</emphasis>,</item>
+                     <item>w części <emphasis>Style</emphasis> należy wybrać kolejno <emphasis>Zmień style/Zestaw stylów/E-podręczniki v20130412</emphasis>.</item>
+                  </list>
+               </para>
+               <note id="d163e1" type="tip">Wykorzystana w opisie zmienna środowiskowa <emphasis>%APPDATA%</emphasis> odwołuje się do katalogu danych aplikacji. Zmienna ta może być bezpośrednio wykorzystana w pasku adresu <emphasis>Eksploratora Windows</emphasis>. Domyślna lokalizacja, na którą wskazuje zmienna <emphasis>%APPDATA%</emphasis> w systemie operacyjnym <emphasis>Windows 7</emphasis>, to <emphasis>C:\Users\NAZWA_UŻYTKOWNIKA\AppData\Roaming</emphasis>, gdzie <emphasis>NAZWA_UŻYTKOWNIKA</emphasis> jest zastąpiona nazwą zalogowanego użytkownika. </note>
+               <para id="d179e1">Sposób 2:<newline/>
+                  <list id="d179e4" list-type="enumerated" number-style="arabic" mark-suffix=".">
+                     <item>otworzyć plik <emphasis>E-podręczniki v20130412.dotx</emphasis>, </item>
+                     <item>ze wstążki wybrać kartę <emphasis>Narzędzia Główne</emphasis>,</item>
+                     <item>w części <emphasis>Style</emphasis> należy wybrać kolejno <emphasis>Zmień style/Zestaw stylów/Zapisz jako zestaw szybkich stylów</emphasis>,</item>
+                     <item>po pojawieniu się okna <emphasis>Zapisywanie zestawu stylów szybkich</emphasis> w pole <emphasis>Nazwa pliku</emphasis> należy wpisać <emphasis>E-podręczniki v20130412</emphasis>, a następnie wcisnąć przycisk <emphasis>Zapisz</emphasis>.</item>
+                  </list>Po wykonaniu powyższych operacji, część <emphasis>Style</emphasis> karty <emphasis>Narzędzia Główne</emphasis> powinna zawierać zestaw stylów szybkich na potrzeby edycji e-podręcznika.</para>
+               <para id="d213e1">Dodatkowo można zainstalować makro pozwalające na wstawianie do modułów treści tabelki z metadanymi, krok ten jest jednak opcjonalny, gdyż tabelka może być również wstawiona z pominięciem makra poprzez przekopiowana z niniejszego dokumentu. Więcej informacji na ten temat znajduje się <link target-id="irOWnZOkhQ">w sekcji dedykowanej metadanym modułu treści e-podręcznika</link>.<newline/>Instalacja makra <emphasis>WstawMetadaneDlaModulu</emphasis> następuje poprzez wyeksportowanie makra z niniejszego dokumentu do szablonu globalnego <emphasis>Normal.dotm</emphasis> programu <emphasis>MS Word</emphasis> i obejmuje następujące kroki:<newline/>
+                  <list id="d213e5" list-type="enumerated" number-style="arabic" mark-suffix=".">
+                     <item>otwarcie pliku <emphasis>Przygotowanie dokumentu MS Word na potrzeby platformy e-podreczniki.docm</emphasis>,</item>
+                     <item>wybranie karty kartę <emphasis>Widok</emphasis> ze wstążki,</item>
+                     <item>w części <emphasis>Makra</emphasis> wybranie kolejno <emphasis>Makra/Wyświetl makra</emphasis>,</item>
+                     <item>wciśnięcie przycisku <emphasis>Organizator</emphasis>,</item>
+                     <item>przekopiowanie zestaw makr <emphasis>Makro_epodreczniki_metadane</emphasis> poprzez zaznaczenie jego nazwy w lewym oknie, a następnie kliknięcie przycisku <emphasis>Kopiuj-&gt;</emphasis> (należy zwrócić uwagę, na zawartość znajdującej się pod prawym oknem kontrolki <emphasis>Elementy projektów makr dostępne w</emphasis> - powinna ona wskazywać na szablon globalnym <emphasis>Normal.dotm</emphasis>),</item>
+                     <item>zamknięcie okna <emphasis>Organizator</emphasis>.</item>
+                  </list>
+               </para>
+            </section>
+            <section id="d3e122">
+               <title>Dostosowanie</title>
+               <para id="d262e1">Zestaw stylów można dostosować do swoich potrzeb poprzez zmianę kolejności poszczególnych stylów. Operacji tej dokonuje się w następujący sposób:<newline/>
+                  <list id="d262e4" list-type="enumerated" number-style="arabic" mark-suffix=".)">
+                     <item>otworzyć okienko <emphasis>Style</emphasis> w jeden z poniższych sposobów: <list id="d270e1" list-type="enumerated" number-style="lower-alpha" mark-suffix=".">
+                           <item>poprzez kliknięcie małej szarej ikonki w dolnym prawym rogu części <emphasis>Style</emphasis> w karcie <emphasis>Narzędzia Główne</emphasis>,</item>
+                           <item>poprzez wywołanie skrótu klawiszowego <emphasis>Alt</emphasis>+<emphasis>Ctrl</emphasis>+<emphasis>S</emphasis> (domyślny skrót),</item>
+                        </list>
+                     </item>
+                     <item>przejść do okna zarządzania stylami poprzez kliknięcie trzeciej ikonki od lewej strony w dolnej części okienka <emphasis>Style</emphasis>,</item>
+                     <item>wybrać zakładkę <emphasis>Zalecenia</emphasis>,</item>
+                     <item>dostosować kolejności poprzez nadanie poszczególnym stylom priorytetów.</item>
+                  </list>
+               </para>
+               <note id="d295e1" type="tip">Sortowanie następuje wg. liczby priorytet (czym niższa liczba priorytetu, tym bliżej początku listy). Dla stylów o identycznych priorytetach sortowanie następuje alfabetycznie.</note>
+               <para id="d299e1">Dozwolone, aczkolwiek nie zalecane, jest również zmienienie czcionki i innych atrybutów poszczególnych stylów, <emphasis>pod warunkiem, że nazwy stylów zostaną niezmienione</emphasis>.</para>
+            </section>
+         </section>
+      </section>
+      <section id="d3e158">
+         <title>Ogólne wskazówki dotyczące edycji</title>
+         <para id="iMgdu6OmE0"/>
+         <para id="d308e1">Sekcja ta zawiera ogólne wskazówki dotyczące edycji e-podręcznika.</para>
+         <section id="d3e168">
+            <title>Akapity</title>
+            <para id="d315e1">W wyniku konwersji, następujące po sobie akapity tego samego typu traktowane są domyślnie jako jeden długi, poprzedzielany znakami nowej linii, akapit w dokumencie wynikowym. W celu wymuszenia <emphasis>rozpoczęcia nowego akapitu</emphasis> w sekcji e-podręcznika, dokument źródłowy musi zawierać<emphasis> separator w postaci pustego akapitu</emphasis>. Przykład:<newline/>Ta treść w dokumencie wynikowym stanie się częścią akapitu, który rozpoczął się słowami <quote display="inline">w wyniku konwersji</quote>.</para>
+            <para id="d327e1">Ta treść w dokumencie wynikowym zawarta będzie w nowym akapicie.</para>
+            <para id="d331e1">Pusty akapit zawarty między dwoma tabelami, referencjami do WOMI, lub tabelą i referencją do WOMI nie jest traktowany jako separator. Wynika to z faktu scalania przez program MS Word sąsiadujących ze sobą tabel, a co za tym idzie usunięcia ważnych informacji dotyczących jednej z nich. Wprowadzenie podziału, w opisanym tutaj przypadku, następuje poprzez zastosowanie dodatkowego akapitu. W rezultacie, <emphasis>separator między tabelami</emphasis> stanowią <emphasis>dwa puste akapity</emphasis>. </para>
+         </section>
+         <section id="d3e189">
+            <title>Łącza</title>
+            <para id="d342e1">W celu wstawienia łącza do zasobu zewnętrznego, innego modułu lub <emphasis>zakładki</emphasis> zdefiniowanej w bieżącym lub innym module należy skorzystać z mechanizmu <emphasis>Hiperłącza</emphasis> oraz <emphasis>Zakładka</emphasis> znajdującego się w sekcji <emphasis>Łącza</emphasis> karty <emphasis>Wstawianie</emphasis>. Należy zaznaczyć fragment tekstu, a następnie wcisnąć przycisk <emphasis>Hiperłącze</emphasis> i zdefiniować łącze. Możliwości konwertera pozwalają na zdefiniowanie:<newline/>
+               <list id="d342e4" list-type="bulleted">
+                  <item>łącza do innego modułu (poprzez wskazanie pliku źródłowego docx zawierającego jego definicję),</item>
+                  <item>łącza do <emphasis>zakładki</emphasis> zdefiniowanej w innym module (zakładka powinna być zdefiniowana na akapicie oznaczonym jednym ze <link target-id="iyYNlh+6OL">stylów nagłówków</link>). </item>
+                  <item>łącza do <emphasis>zakładki</emphasis> zdefiniowanej w bieżącym module (zakładka powinna być zdefiniowana w bieżącym dokumencie na akapicie oznaczonym jednym ze <link target-id="iyYNlh+6OL">stylów nagłówków</link>). </item>
+               </list>
+            </para>
+            <note id="d372e1" type="warning">Łącze do innego modułu musi wskazywać na plik źródłowy, który będzie przetwarzany wraz z modułem z którego następuje referencja, w przeciwnym wypadku nie ma możliwości prawidłowego przetworzenia łącza przez konwerter.</note>
+            <note id="d376e1" type="important">W chwili obecnej łącza do zakładki zdefiniowanej w innym module przetwarzane są w identyczny sposób, jak łącza do innego modułu. Niemniej jednak w przyszłości pojawi się funkcjonalność przewinięcia treści w taki sposób, aby na ekranie wyświetlany był fragment do którego odnosi się odwołanie (treść, na której zdefiniowana została zakładka).</note>
+            <note id="d380e1" type="warning">Jeżeli tekst łącza ma być dodatkowo sformatowany za pomocą stylu znakowego, <emphasis>należy najpierw wstawić łącze, a następnie oznaczyć stylem znakowym</emphasis>, w przypadku zastosowania odwrotnej kolejności informacja na temat wykorzystanego stylu znakowego zostanie zamazana.</note>
+         </section>
+         <section id="d3e220">
+            <title>Tabele</title>
+            <para id="iW98TtxzJN"/>
+            <para id="d390e1">W celu wstawienia tabeli do edytowanej treści należy wykorzystać mechanizmy wbudowane w program MS Word, należy jednak pamiętać, że przetwarzaniu przez konwerter podlega głównie zawartość tabeli oraz jej <emphasis>niektóre</emphasis>, wymienione poniżej, cechy mające związek z semantyką. </para>
+            <note id="d396e1" type="important">Wszelkie opcje formatowania tabeli włączywszy w to czcionki, marginesy, odstępy między komórkami, szerokości kolumn, czy też cechy obramowania, <emphasis>nie są interpretowane przez konwerter</emphasis>.</note>
+            <para id="d402e1">Tabele są traktowane jako fragment akapitu do którego „przywierają”(bezpośrednio się z nim stykają, bez wystąpienia pustego akapitu pomiędzy), a co za tym idzie są traktowane jako treść oznaczona stylem tegoż akapitu. Możliwe jest powiązanie tabeli zarówno z poprzedzającym ją akapitem, z następującym po niej akapitem, jak i z obydwoma otaczającymi akapitami.</para>
+            <note id="d406e1" type="important">W przypadku, gdy dokument jest skonstruowany w sposób wskazujący na powiązanie tabeli zarówno z poprzedzającym, jak i następującym po tabeli akapitem, a style wspomnianych akapitów są różne, tabela zostanie powiązana tylko z akapitem poprzedzającym.</note>
+            <note id="d410e1" type="important">Ze względu na fakt scalania sąsiadujących ze sobą tabel przez program MS Word, <emphasis>rolę separatora pomiędzy dwoma tabelami (włączywszy w to referencje do WOMI) stanowi podwójny pusty akapit</emphasis>, a nie pojedynczy, jak to jest w przypadku akapitów zawierających tekst.</note>
+            <para id="d416e1">Po przetworzeniu treści przez konwerter Tabela zostanie automatycz<newline/>Każda tabela powinna mieć zdefiniowany <emphasis>tekst alternatywny</emphasis>. W celu zdefiniowania go należy:<newline/>
+               <list id="d416e5" list-type="enumerated" number-style="arabic" mark-suffix=".)">
+                  <item>otworzyć okienko <emphasis>Właściwości tabeli</emphasis> poprzez kliknięcie prawym przyciskiem myszki na tabeli, a następnie wybranie z menu kontekstowego opcji <emphasis>Właściwości tabeli</emphasis>,</item>
+                  <item>przejść do zakładki <emphasis>Tekst alternatywny</emphasis>,</item>
+                  <item>wypełnienie pól <emphasis>Tytuł</emphasis> oraz <emphasis>Opis</emphasis>.</item>
+               </list>
+            </para>
+            <note id="d440e1" type="warning">Zdefiniowanie tekstu alternatywnego (tytuł oraz opis) dla tabeli jest <emphasis>obligatoryjne</emphasis>. Pojawianie się w treści modułu tabeli nieposiadającej tekstu alternatywnego jest błędem, a konwersja takiego dokumentu nie powiedzie się.</note>
+            <note id="d446e1" type="important">Numerowanie tabeli oraz dodanie słowa <emphasis>Tabela</emphasis> przed tytułem następuje na etapie przetwarzania treści, dlatego też, elementy te nie powinny zawierać się w treści tytułu zdefiniowanej przez autora.</note>
+            <para id="d452e1">Pierwszy wiersz tabeli może być potraktowany jako nagłówek tabeli, aby tak się stało należy:<newline/>
+               <list id="d452e4" list-type="enumerated" number-style="arabic" mark-suffix=".)">
+                  <item>otworzyć okienko <emphasis>Właściwości tabeli</emphasis> poprzez kliknięcie prawym przyciskiem myszki na tabeli, a następnie wybranie z menu kontekstowego opcji <emphasis>Właściwości tabeli</emphasis>,</item>
+                  <item>przejść do zakładki <emphasis>Wiersz</emphasis>,</item>
+                  <item>korzystając z przycisków <emphasis>Poprzedni wiersz </emphasis>oraz <emphasis>Następny wiersz</emphasis> ustawić podświetlenie tabeli tak, aby zaznaczony był pierwszy wiersz,</item>
+                  <item>wypełnienie opcji <emphasis>Powtórz jako wiersz nagłówka na początku każdej strony</emphasis>.</item>
+               </list>
+            </para>
+            <note id="d476e1" type="tip">Istnieje możliwość oznaczenie <emphasis>kilku następujących po sobie i występujących na początku tabeli wierszy</emphasis> jako nagłówka tabeli, w takim przypadku należy <emphasis>najpierw wybrać całe wiersze</emphasis>, a następnie przejść opisaną powyżej procedurę <emphasis>pomijając krok nr 3</emphasis>. </note>
+            <note id="d486e1" type="warning">Należy zwrócić szczególną uwagę na to, aby wiersze tabeli oznaczone jako nagłówek nie posiadały komórek rozciągających się na wiersze nieoznaczone jako nagłówek, w przeciwnym wypadku <emphasis>przetwarzanie tabeli zakończy się błędem</emphasis> uniemożliwiającym wygenerowanie zarówno dokumentu XML reprezentującego moduł, jak również pliku podglądu w formacie pdf.</note>
+            <para id="d492e1">Konwerter obsługuje komórki rozciągające się zarówno na kilka wierszy, jak i kilka kolumn. Należy jednak zwrócić uwagę na komórki wchodzące w część tabeli określoną jako nagłówek i rozciągające się na kilka wierszy (patrz: ostrzeżenie). Poniżej znajdują się przykłady tabel z pierwszym wierszem/wieloma wierszami będącymi nagłówkiem oraz ze scaleniami komórek. Drugi z przykładów został oznaczony stylem komentarza jako treść przeznaczona dla nauczyciela, więcej informacji na ten temat znajduje się w sekcji poświęconej <link target-id="iMBWclFodN">widoczności treści</link>.<newline/>
+               <table id="d498d2e2333"
+                      summary="Tabela przedstawia mierzoną w warunkach normalnych, czyli ciśnienie 101325 Pa oraz temperatura 273,15 K, gęstość wybranych pierwiastków chemicznych, w tym wodoru, helu, neonu, azotu i tlenu.">
+                  <title>Gęstość wybranych pierwiastków chemicznych</title>
+                  <tgroup cols="3">
+                     <colspec colnum="1" colname="c1"/>
+                     <colspec colnum="2" colname="c2"/>
+                     <colspec colnum="3" colname="c3"/>
+                     <thead>
+                        <row>
+                           <entry>Nazwa</entry>
+                           <entry>Symbol</entry>
+                           <entry>Gęstość (g/cm<sup>3</sup>)</entry>
+                        </row>
+                     </thead>
+                     <tbody>
+                        <row>
+                           <entry>Wodór</entry>
+                           <entry>H</entry>
+                           <entry>0,00008988</entry>
+                        </row>
+                        <row>
+                           <entry>Hel</entry>
+                           <entry>He</entry>
+                           <entry>0,0001785</entry>
+                        </row>
+                        <row>
+                           <entry>Neon</entry>
+                           <entry>Ne</entry>
+                           <entry>0,0008999</entry>
+                        </row>
+                        <row>
+                           <entry>Azot</entry>
+                           <entry>N</entry>
+                           <entry>0,0012506</entry>
+                        </row>
+                        <row>
+                           <entry>Tlen</entry>
+                           <entry>O</entry>
+                           <entry>0,001429</entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+               <table id="d517d2e2488"
+                      summary="Roczny plan pracy z wymaganiami edukacyjnymi dotyczącymi podręcznika &#34;Edycja e-podręcznika&#34;.">
+                  <title>Roczny plan pracy z podręcznikiem "Edycja e-podręcznika"</title>
+                  <tgroup cols="6">
+                     <colspec colnum="1" colname="c1"/>
+                     <colspec colnum="2" colname="c2"/>
+                     <colspec colnum="3" colname="c3"/>
+                     <colspec colnum="4" colname="c4"/>
+                     <colspec colnum="5" colname="c5"/>
+                     <colspec colnum="6" colname="c6"/>
+                     <thead>
+                        <row>
+                           <entry morerows="2">Temat</entry>
+                           <entry namest="c2" nameend="c6">Wymagania</entry>
+                        </row>
+                        <row>
+                           <entry>konieczne (ocena dopuszczająca)</entry>
+                           <entry>Podstawowe (ocena dostateczna)</entry>
+                           <entry>Rozszerzające (ocena dobra)</entry>
+                           <entry>Dopełniające (ocena bardzo dobra)</entry>
+                           <entry>Wykraczające (ocena celująca)</entry>
+                        </row>
+                        <row>
+                           <entry namest="c2" nameend="c6">Uczeń:</entry>
+                        </row>
+                     </thead>
+                     <tbody>
+                        <row>
+                           <entry>Poznajemy e-podręcznik opisujący tworzenie e-podręczników</entry>
+                           <entry>przyswoił sobie określenia dotyczące  budowy e-podręcznika</entry>
+                           <entry>rozumie strukturę e-podręcznika, a ponadto poprawnie interpretuje poszczególne style treści e-podręcznika</entry>
+                           <entry>poprawnie interpretuje style komentarzy e-podręcznika</entry>
+                           <entry>wyraża opinię na temat poszczególnych stylów e-podręcznika</entry>
+                           <entry>wyraża opinię na temat możliwych usprawnień, w tym konieczności wprowadzenia do e-podręcznika nowych stylów</entry>
+                        </row>
+                        <row>
+                           <entry>Uczymy się zastosowania oraz znaczenia poszczególnych stylów treści</entry>
+                           <entry>…</entry>
+                           <entry>…</entry>
+                           <entry>…</entry>
+                           <entry>…</entry>
+                           <entry>…</entry>
+                        </row>
+                        <row>
+                           <entry>Wzbogacamy moduły tekstowe o właściwości wyrażane stylami komentarzy</entry>
+                           <entry>…</entry>
+                           <entry>…</entry>
+                           <entry>…</entry>
+                           <entry>…</entry>
+                           <entry>…</entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </para>
+         </section>
+         <section id="d3e306">
+            <title>Listy punktowane oraz numerowane</title>
+            <para id="iEZYX3A1TU"/>
+            <para id="d548e1">W celu wstawienia do treści modułu listy punktowanej lub listy numerowanej należy wykorzystać mechanizmy wbudowane w program MS Word, trzeba jednak pamiętać, że <emphasis>przetwarzaniu podlega głównie struktura listy, natomiast jej formatowanie jest uwzględniane tylko w wymienionych poniżej przypadkach</emphasis>. </para>
+            <note id="d554e1" type="warning">Zastosowanie stylu typu akapit na elemencie listy zmienia element w akapit nie będący częścią listy, dlatego też style typu akapit należy zastosować <emphasis>przed zamianą</emphasis> zestawu akapitów na listę, a nie na odwrót, w przeciwnym wypadku treść zostanie przetworzona zgodnie z zapisaną w dokumencie informacją, czyli jako akapity nie będące częścią listy.</note>
+            <para id="d560e1">W listach punktowanych przetwarzaniu <emphasis>podlegają</emphasis>:<newline/>
+               <list id="d560e4" list-type="bulleted">
+                  <item>poziomy listy - poziom listy można sprawdzić po kliknięciu prawym przyciskiem na elemencie, a następnie wybraniu opcji <emphasis>Punktory/Zmień poziom listy</emphasis>. </item>
+               </list>W listach punktowanych przetwarzaniu <emphasis>nie podlegają</emphasis> cechy, które nie zostały wymienione powyżej, a zwłaszcza:<newline/>
+               <list id="d560e9" list-type="bulleted">
+                  <item>style punktorów.</item>
+               </list>
+            </para>
+            <para id="d576e1">W listach numerowanych przetwarzaniu <emphasis>podlegają</emphasis>:<newline/>
+               <list id="d576e4" list-type="bulleted">
+                  <item>poziomy listy - poziom listy można sprawdzić po kliknięciu prawym przyciskiem na elemencie, a następnie wybraniu opcji <emphasis>Numerowanie/Zmień poziom listy</emphasis>, </item>
+                  <item>wartość początkowa numerowania – wartość tą można zdefiniować po kliknięciu prawym przyciskiem <emphasis>na pierwszym elemencie listy</emphasis>, a następnie wybraniu opcji <emphasis>Numerowanie/Ustaw wartość numerowania</emphasis>,</item>
+                  <item>niektóre style numeracji, a dokładnie:<list id="d594e1" list-type="bulleted">
+                        <item>liczbowy - oznaczony w programie MS Word jako <emphasis>1, 2, 3 ,…</emphasis>,</item>
+                        <item>rzymski (małe litery) - oznaczony w programie MS Word jako <emphasis>i, ii, iii ,…</emphasis>,</item>
+                        <item>rzymski (duże litery) - oznaczony w programie MS Word jako <emphasis>I, II, III ,…</emphasis>,</item>
+                        <item>alfabetyczny (małe litery) - oznaczony w programie MS Word jako <emphasis>a, b, c ,…</emphasis>,</item>
+                        <item>alfabetyczny (duże litery) - oznaczony w programie MS Word jako <emphasis>A, B, C ,…</emphasis>,</item>
+                        <item>bez numeracji (<emphasis>do wykorzystania jako punktor składający się z więcej niż jednego znaku</emphasis>) - oznaczony w programie MS Word jako <emphasis>(brak)</emphasis>,</item>
+                     </list>
+                  </item>
+                  <item>przedrostek oraz przyrostek zdefiniowany w formacie numeracji – wartość pochodząca zarówno z formatu pochodzącego z <emphasis>Biblioteki numeracji</emphasis>, jak i formatu nowozdefiniowanego poprzez kliknięciu prawym przyciskiem na elemencie, a następnie wybraniu opcji <emphasis>Numerowanie/Definiuj nowy format numeracji…</emphasis>.</item>
+               </list>
+            </para>
+            <note id="d627e1" type="warning">W przypadku <emphasis>nadania wartości początkowej numerowania elementowi, który nie jest pierwszym elementem listy, lista zostaje podzielona</emphasis> w programie MS Word <emphasis>na dwie osobne listy i w taki też sposób zostanie przetworzona</emphasis> przez konwerter. Fakt zaistnienia takiego podziału można stwierdzić po kliknięciu lewym przyciskiem myszki na numeracji listy – program MS Word podświetli tylko i wyłącznie elementy należące do jednej listy. <emphasis>Podział listy może nastąpić również w przypadku</emphasis>, gdy element jest pierwszym elementem znajdującym się <emphasis>na poziomie listy wyższym niż poziom 1 i zaaplikuje się na nim zmianę formatu numeracji lub też nadanie wartości początkowej numerowania</emphasis>. W takim przypadku może dojść nie tylko do podziału listy, ale również do zmiany poziomu elementów, w stosunku do których podjęto powyżej opisane akcje, na poziom 1. Fakt ten można stwierdzić po kliknięciu prawym przyciskiem na elemencie, a następnie wybraniu opcji <emphasis>Numerowanie/Zmień poziom listy</emphasis>. Ostatnim przypadkiem wystąpienia podziału jest wstawienie, między elementy należące do listy, pustego akapitu, lub akapitu zawierającego treść. W tym przypadku, pomimo faktu podświetlenia wszystkich elementów po kliknięciu lewym przyciskiem myszki, lista zostanie potraktowana jako osobne listy.</note>
+            <para id="d641e1">W listach numerowanych przetwarzaniu <emphasis>nie podlegają</emphasis> cechy, które nie zostały wymienione powyżej, a zwłaszcza:<newline/>
+               <list id="d641e4" list-type="bulleted">
+                  <item>cechy czcionki,</item>
+                  <item>położenie oraz wyrównanie elementów,</item>
+                  <item>dołączanie do formatu numeracji z wyższych poziomów.</item>
+               </list>Możliwe jest zastosowanie list hybrydowych wykorzystujących <emphasis>na różnych poziomach</emphasis> elementy punktowane oraz elementy numerowane. Przykład:<newline/>
+               <list id="d641e13" list-type="enumerated" number-style="arabic" mark-suffix=".">
+                  <item>pierwszy element numerowany poziomu 1,<list id="d659e1" list-type="enumerated" number-style="lower-alpha" mark-suffix=".">
+                        <item>pierwszy element numerowany poziomu 2,<list id="d662e1" list-type="bulleted">
+                              <item>pierwszy element punktowany poziomu 3,</item>
+                              <item>drugi element punktowany poziomu 3,</item>
+                              <item>trzeci element punktowany poziomu 3,</item>
+                           </list>
+                        </item>
+                        <item>drugi element numerowany poziomu 2,</item>
+                     </list>
+                  </item>
+                  <item>drugi element numerowany poziomu 1,<list id="d673e1" list-type="enumerated" number-style="lower-alpha" mark-suffix=".">
+                        <item>pierwszy element numerowany poziomu 2,</item>
+                        <item>drugi element numerowany poziomu 2,<list id="d678e1" list-type="bulleted">
+                              <item>pierwszy element punktowany poziomu 3,</item>
+                              <item>drugi element punktowany poziomu 3,</item>
+                              <item>trzeci element punktowany poziomu 3,</item>
+                           </list>
+                        </item>
+                        <item>trzeci element numerowany poziomu 2,</item>
+                     </list>
+                  </item>
+                  <item>trzeci element numerowany poziomu 1.</item>
+               </list>
+            </para>
+            <note id="d689e1" type="warning">Wykorzystanie w ramach <emphasis>jednej listy i jednego poziomu</emphasis> elementów charakteryzujących się <emphasis>różnymi stylami wypunktowania, lub też różnymi formatami numeracji</emphasis> skutkowała będzie nieprawidłowym przetworzeniem listy. Fakt ten wynika z opisanego wcześniej podziału listy na mniejsze fragmenty.</note>
+            <para id="d697e1">Zarówno lista punktowana, jak i numerowana może mieć swoją nazwę. Zdefiniowanie jej możliwe jest z wykorzystaniem stylów <emphasis>EP Nazwa</emphasis> oraz <emphasis>EPK Lista</emphasis>. Więcej informacji na ten temat znajduje się w sekcji poświęconej <link target-id="i5O4jwlXAT">tytułom list</link>.</para>
+            <note id="d707e1" type="important">Niektóre zaawansowane funkcjonalności mogą być stopniowo wprowadzane do oprogramowania konwertującego, w związku z tym mogą być nieodzwierciedlone w dokumentach przetworzonych z wykorzystaniem pierwszych wersji konwertera.</note>
+         </section>
+         <section id="d3e437">
+            <title>Wyrażenia matematyczne</title>
+            <para id="iBVx5Yj51W"/>
+            <para id="d715e1">W celu wstawienia do treści modułu wyrażenia matematycznego należy skorzystać z narzędzia Edytor Równań. Wyrażenia mogą być stosowane zarówno jako treść znajdująca się w tekście (np. <mml:math>
+                  <mml:mfrac >
+                     <mml:mrow>
+                        <mml:mn>1</mml:mn>
+                     </mml:mrow>
+                     <mml:mrow>
+                        <mml:mn>2</mml:mn>
+                     </mml:mrow>
+                  </mml:mfrac>
+               </mml:math>), jak i osobny blok tekstu:<newline/>
+               <equation>
+                  <mml:math>
+                     <mml:mfrac >
+                        <mml:mrow>
+                           <mml:mn>1</mml:mn>
+                        </mml:mrow>
+                        <mml:mrow>
+                           <mml:mn>2</mml:mn>
+                        </mml:mrow>
+                     </mml:mfrac>
+                  </mml:math>
+               </equation>
+            </para>
+            <note id="d743e1" type="important">Należy pamiętać, że konwerter przetwarza <emphasis>tylko i wyłącznie wyrażenia matematyczne zgodne z Office Math Markup Language (OMML)</emphasis>, czyli wyrażenia zdefiniowane w dokumentach w formacie OOXML przy pomocy Edytora Równań w MS Word 2007 lub nowszym.</note>
+         </section>
+         <section id="d3e455">
+            <title>Metadane</title>
+            <para id="irOWnZOkhQ"/>
+            <para id="d753e1">Z każdym modułem treści skojarzone są metadane. Metadane te są wyrażone w specjalnie sformatowanej tabeli, która jest identyczna z tabelą występującą na początku niniejszego dokumentu.</para>
+            <note id="d757e1" type="important">Tabela z metadanymi <emphasis>musi</emphasis> wystąpić tuż po tytule modułu wyrażonym stylem <emphasis>EP Tytuł modułu</emphasis>, w przeciwnym razie konwersja dokumentu nie powiedzie się.</note>
+            <para id="d765e1">Wstawienie tabeli metadanych do treści modułu może nastąpić na dwa różne sposoby.<newline/>Sposób 1 (przekopiowanie tabeli metadanych z niniejszego dokumentu):<newline/>
+               <list id="d765e5" list-type="enumerated" number-style="arabic" mark-suffix=".">
+                  <item>zaznaczyć całą tabelę z metadanymi znajdującą się na początku niniejszego dokumentu,</item>
+                  <item>wcisnąć kombinację klawiszy <emphasis>Ctrl</emphasis> oraz <emphasis>C</emphasis>,</item>
+                  <item>wyświetlić treść modułu e-podręcznika, do którego chcemy wkleić metadane oraz ustawić kursor w odpowiednim miejscu (tuż po tytule moduły),</item>
+                  <item>wcisnąć kombinację klawiszy <emphasis>Ctrl</emphasis> oraz <emphasis>V</emphasis>.</item>
+               </list>Sposób 2 (wykorzystanie makra <emphasis>WstawMetadaneDlaModulu</emphasis> – wymaga wcześniejszej instalacji makra):<newline/>
+               <list id="d765e16" list-type="enumerated" number-style="arabic" mark-suffix=".">
+                  <item>wyświetlić treść modułu e-podręcznika, do którego chcemy wkleić metadane oraz ustawić kursor w odpowiednim miejscu (tuż po tytule moduły),</item>
+                  <item>ze wstążki wybrać kartę <emphasis>Widok</emphasis>,</item>
+                  <item>w części <emphasis>Makra</emphasis> wybrać kolejno <emphasis>Makra/Wyświetl makra</emphasis>,</item>
+                  <item>z listy <emphasis>Makra w</emphasis> wybrać opcję <emphasis>Normal.dotm (szablon globalny)</emphasis>,</item>
+                  <item>wybrać makro <emphasis>WstawMetadaneDlaModulu</emphasis>,</item>
+                  <item>wcisnąć przycisk <emphasis>Uruchom</emphasis>,</item>
+               </list>
+            </para>
+            <note id="d817e1" type="tip">Uruchomienie makra może wymagać włączenia obsługi makr lub modyfikacji uprawnień w programie <emphasis>MS Word</emphasis>.</note>
+            <para id="d823e1">W przypadku, gdy nastąpi potrzeba modyfikacji domyślnie ustawionych wartości metadanych, należy wybrać odpowiednie opcje w formantach znajdujących się po prawej stronie tabeli. </para>
+            <note id="d827e1" type="warning">
+               <emphasis>Modyfikacja tabeli</emphasis> z metadanymi <emphasis>w jakikolwiek inny, niż opisany w tym dokumencie sposób</emphasis>, włączywszy w to zmianę jej właściwości, <emphasis>jest niedozwolona</emphasis> i może prowadzić do błędu w trakcie konwersji.</note>
+            <para id="d837e1">Metadane, które obecnie są skojarzone z modułem treści to:<newline/>
+               <list id="d837e4" list-type="bulleted">
+                  <item>adresat treści – pozwala zadecydować na poziomie globalnym, czy moduł jest przeznaczony dla ucznia, czy też dla nauczyciela,</item>
+                  <item>status treści – pozwala zadecydować na poziomie globalnym, czy moduł należy do kanonu (treści, która musi koniecznie pojawić się w e-podręczniku), jest treścią rozszerzającą, czy też treścią uzupełniającą.</item>
+               </list>Zarówno adresat, jak i status treści mogą być dodatkowo określone na poziomie pojedynczego akapitu. Więcej informacji na ten temat znajduje się w sekcjach <link target-id="iMBWclFodN">
+                  <emphasis>Widoczność treści</emphasis>
+               </link>.</para>
+         </section>
+         <section id="d3e533">
+            <title>Referencje do Wieloformatowych Obiektów Multimedialnych i Interaktywnych</title>
+            <para id="iQnBrwvf8x"/>
+            <para id="d853e1">Koncepcja Wieloformatowych Obiektów Multimedialnych i Interaktywnych (<term>WOMI</term>) pozwala na wstawienie do treści modułu e-podręcznika referencji do obiektu przyjmującego różne, zależne od możliwości technologicznych urządzenia końcowego, formy. <newline/>
+               <term>WOMI</term> są zdefiniowanymi w Repozytorium Treści e-podręczników bytami grupującymi obiekty różnych typów, w tym zarówno ilustracje, filmy, klipy audio, jak i obiekty interaktywne.<newline/>Referencję do <term>WOMI</term> można wstawić do treści modułu poprzez przekopiowanie z Repozytorium Treści e-podręczników tabeli zawierającej miniaturkę oraz podstawowe metadane na temat obiektu.<newline/>W celu zwiększenia wygody autorów treści, tabele z referencjami udostępnione są w dwóch różnych wariantach (normalny oraz zredukowany) różniących się ilością wyeksponowanych danych na temat obiektu. Warianty te odróżnia tylko i wyłącznie wizualna reprezentacja w programie <emphasis>MS Word</emphasis>, na etapie konwersji nie ma żadnego znaczenia, czy w treści wykorzystano wariant normalny, czy zredukowany.<newline/>Dla obiektów mających reprezentację graficzną (ilustracje/filmy/obiekty interaktywne) można zdefiniować wyrażoną w procentach, w zakresie 1 do 100, <emphasis>maksymalną</emphasis> szerokość obiektu w stosunku do kolumny tekstu, w której zostanie on zaprezentowany użytkownikowi końcowemu. Należy jednak pamiętać, iż platforma e-podręczniki może zignorować, lub zmodyfikować ustawioną wartość, w przypadku, gdy format oraz wymagania wyrażone w metadanych obiektu nie pozwalają na ograniczenie jego rozmiarów poniżej określonej wielkości.<newline/>Poprzez mechanizm referencji, z treścią poszczególnych paragrafów e-podręcznika można skojarzyć <term>WOMI</term> będące klipami audio zawierającymi nagrania treści czytanej przez lektora. Skojarzenie nagrania z treścią następuje poprzez wykorzystanie tabeli z referencją w komentarzu dotyczącym akapitu, lub kilku akapitów tego samego rodzaju (fragment oznaczony jednym stylem akapitowym) tworzących jeden paragraf. </para>
+            <note id="d878e1" type="tip">Przekopiowana tabela z referencją <term>WOMI</term> jest <emphasis>traktowana w trakcie konwersji jako pojedynczy paragraf</emphasis> mający styl <emphasis>normalny, lub jeden ze stylów specjalnych e-podręczników</emphasis> (w zależności od miejsca wystąpienia referencji może to być jeden ze stylów, których nazwy zaczynają się od dużych liter <emphasis>EP</emphasis> lub <emphasis>EPQ</emphasis>).</note>
+            <note id="d892e1" type="important">Ze względu na fakt scalania sąsiadujących ze sobą tabel przez program MS Word, <emphasis>rolę separatora pomiędzy dwoma tabelami (włączywszy w to referencje do WOMI) stanowi podwójny pusty akapit</emphasis>, a nie pojedynczy, jak to jest w przypadku akapitów zawierających tekst.</note>
+            <para id="d898e1">Przekopiowanie referencji do <term>WOMI</term> odbywa się według następującej sekwencji: <newline/>
+               <list id="d898e4" list-type="enumerated" number-style="arabic" mark-suffix=".">
+                  <item>wyświetlenie tabeli w <emphasis>Repozytorium Treści</emphasis>,</item>
+                  <item>równoczesne wciśnięcie klawiszy <emphasis>Ctrl</emphasis> oraz <emphasis>A</emphasis>,</item>
+                  <item>równoczesne wciśnięcie klawiszy <emphasis>Ctrl</emphasis> oraz <emphasis>C</emphasis>,</item>
+                  <item>wyświetlenie treści modułu e-podręcznika w programie <emphasis>MS Word</emphasis>,</item>
+                  <item>równoczesne wciśnięcie klawiszy <emphasis>Ctrl</emphasis> oraz <emphasis>V</emphasis>,</item>
+                  <item>jeżeli to konieczne – nadanie znaczenia obiektowi poprzez zastosowanie pożądanego stylu specjalnego e-podręcznika (styl podstawowy <emphasis>EP</emphasis> lub styl quizu <emphasis>EPQ</emphasis>) na <emphasis>pierwszym wierszu</emphasis> przeklejonej tabeli,</item>
+                  <item>jeżeli to konieczne – określenie maksymalnej szerokości obiektu w stosunku do kolumny tekstu dokonane poprzez <emphasis>modyfikację liczby</emphasis> znajdującej się w <emphasis>drugiej komórce drugiego wiersza</emphasis> przeklejonej tabeli.</item>
+               </list>
+            </para>
+            <note id="d944e1" type="warning">W tabeli będącej referencją do <term>WOMI</term> można modyfikować tylko i wyłącznie miejsca do tego przeznaczone (oznaczone kolorem zielonym). <emphasis>Modyfikacja tabeli</emphasis> w jakimkolwiek innym miejscu, lub <emphasis>w inny, niż opisany w tym dokumencie sposób</emphasis>, włączywszy w to zmianę jej właściwości, <emphasis>jest niedozwolona</emphasis> i może prowadzić do błędu w trakcie konwersji.</note>
+            <para id="d956e1">
+               <link target-id="iMcDQhnWjY">Definicja</link> wykorzystująca w treści, jako <link target-id="idjuX8llye">przykład</link> 
+               <emphasis>wersję koncepcyjną</emphasis> takiej tabeli znajduje się poniżej.</para>
+            <definition id="d3e594">
+               <term>Zdjęcie fotograficzne</term>
+               <meaning id="d3e601">Obiekt, który powstał przy pomocy wykorzystania dowolnej techniki fotograficznej.</meaning>
+               <example id="d3e606">
+                  <para id="d3e606para">
+                     <ep:reference ep:id="00101" ep:width="100"/>
+                  </para>
+               </example>
+            </definition>
+            <para id="d974e1">Dodatkowe przykłady wykorzystania referencji do <term>WOMI</term> znajdują się w sekcji poświęconej <link target-id="i46gyb4uka">stylowi komentarza ćwiczenia</link>. W sekcji tej można również znaleźć przykład skojarzenia tekstu z nagraniami treści czytanej przez lektora oraz referencji w wariancie zredukowanym.</para>
+            <note id="d982e1" type="important">Przekopiowanie tabeli nie jest możliwe w przypadku niektórych przeglądarek internetowych, w tym np. <emphasis>IE</emphasis>, objawia się to przekopiowaniem do dokumentu samej zawartości tabeli. Procedura działa jednak prawidłowo w przypadku wielu innych <emphasis>darmowych</emphasis> przeglądarek m.in. <emphasis>Google Chrome</emphasis> oraz <emphasis>Firefox</emphasis>.</note>
+         </section>
+         <section id="d3e625">
+            <title>Pozostałe obiekty</title>
+            <para id="d997e1">W treści dokumentu dozwolone jest stosowanie obiektów, które nie zostały opisane powyżej, w tym m.in. obrazów, wykresów, itp. Należy jednak mieć świadomość, że rola takich obiektów ogranicza się <emphasis>tylko i wyłącznie</emphasis> do stanowienia pomocy w trakcie edycji, lub też przekazywania redaktorom przez autorów różnych informacji, np. na temat tego, jak chcieliby, aby wyglądała grafika ilustrująca dane zagadnienie. Obiekty te będą <emphasis>ignorowane w trakcie konwersji</emphasis>, co oznacza, że <emphasis>nie ukażą się w treści e-podręcznika</emphasis>.</para>
+         </section>
+      </section>
+      <section id="d3e636">
+         <title>Style treści</title>
+         <para id="iJ4TcqBzcA"/>
+         <para id="d1010e1">Sekcja ta zawiera informacje na temat poszczególnych stylów treści oraz przykłady ich zastosowania.</para>
+         <section id="d3e646">
+            <title>Style standardowe MS Word</title>
+            <para id="d1017e1">W skład zestawu stylów szybkich e-podręczniki wchodzą wybrane style standardowe MS Word. Szczegółowy opis przeznaczenia owych styli znajduje się w tej sekcji.</para>
+            <section id="d3e654">
+               <title>Normalny</title>
+               <para id="d1024e1">Typ: akapit<newline/>Styl <term>Normalny</term> wykorzystywany jest do określenia akapitów, których treści nie da się jednoznacznie (np. jako definicja, treść zadania, czy też notatka) skategoryzować. Konwerter przetwarza takie style <emphasis>ignorując</emphasis> wszelkie „ręczne” formatowanie włączywszy w to krój, rozmiar czcionki, pogrubienie, kursywę, podkreślenia, itp. Formatowanie treści powinno następować jedynie poprzez nadanie fragmentowi tekstu jednego ze znajdujących się w zestawie stylów znakowych. Jedynym odstępstwem od tej reguły jest możliwość zastosowania efektów czcionki: <emphasis>indeks górny</emphasis> oraz <emphasis>indeks dolny</emphasis>.</para>
+            </section>
+         </section>
+         <section id="d3e667">
+            <title>Style podstawowe e-podręczników</title>
+            <para id="isc4zX6rJ7"/>
+            <para id="d1043e1">Jaj już wcześniej wspomniano <term>zestaw stylów szybkich e-podręczniki</term> składa się ze stylów standardowych oraz ze stylów mających specjalne znaczenie. Jedną z grup stylów specjalnych tworzą style podstawowe e-podręczników, ich nazwa zaczyna się od dużych liter <emphasis>EP</emphasis>. Style te pozwalają na semantyczne oznaczenie poszczególnych fragmentów treści. Pośród tej grupy stylów znajdują się zarówno style pozwalające nadać znaczenie całemu akapitowi (np. notatka, czy definicja), jak również style pozwalające nadać znaczenie fragmentowi tekstu w ramach akapitu tam gdzie ma to sens (np. emfaza, określenie, czy cytat). W sekcji tej znajduje się szczegółowy opis każdego ze stylów podstawowych e-podręczników wraz z przykładem.</para>
+            <note id="d1051e1" type="important">Jako, że zastosowanie stylów podstawowych e-podręczników nadaje akapitom konkretne znaczenie, autor nie powinien wprowadzać dodatkowych środków podkreślających znaczenie treści, m.in. nie powinien dodawać na początku oznaczonych akapitów następujących słów <emphasis>Przykład</emphasis>, <emphasis>Zadanie</emphasis>, <emphasis>Ćwiczenie</emphasis>, <emphasis>Rozwiązanie</emphasis>, <emphasis>Cytat</emphasis>, <emphasis>Ostrzeżenie</emphasis>, <emphasis>Wskazówka</emphasis>, <emphasis>Dowód</emphasis>, <emphasis>Wyjaśnienie</emphasis>, <emphasis>itp</emphasis>. Podobnie jest z kwestią numerowania poszczególnych ćwiczeń, zadań, twierdzeń oraz wszelkich innych elementów (poza elementami list numerowanych). <emphasis>Zarówno numerowanie, jak i słowa podkreślające znaczenie poszczególnych akapitów zostaną wygenerowane automatycznie w trakcie konwersji treści źródłowej na formaty emisyjne</emphasis>. W przypadku, gdy autor chciałby wykorzystać na etapie przygotowania treści opisane powyżej oznaczenia, może skorzystać ze stylu znakowego <link target-id="iO5LtTIL5u">
+                  <emphasis>EP Komentarz edycyjny</emphasis>
+               </link>, oznaczone w ten sposób fragmenty treści są ignorowane na etapie konwersji.</note>
+            <section id="d3e682">
+               <title>Tytuły</title>
+               <para id="d1082e1">Typ: akapit<newline/>Zestaw zawiera następujące style pozwalające na zdefiniowanie tytułów rozdziałów, podrozdziałów oraz modułów:<newline/>
+                  <list id="d1082e5" list-type="bulleted">
+                     <item>
+                        <term>EP Tytuł rozdziału</term>
+                     </item>
+                     <item>
+                        <term>EP Tytuł podrozdziału 1</term>
+                     </item>
+                     <item>
+                        <term>EP Tytuł podrozdziału 2</term>
+                     </item>
+                     <item>
+                        <term>EP Tytuł modułu</term>
+                     </item>
+                  </list>
+               </para>
+               <note id="d1097e1" type="important">Formatowanie fragmentów tekstu wewnątrz akapitów oznaczonych jednym ze stylów tytułu jest ignorowane przez konwerter.</note>
+               <note id="d1101e1" type="important">Na obecnym etapie przewiduje się konwersję pojedynczego modułu zapisanego w dokumencie MS Word, w związku z tym zastosowanie ma jedynie styl <term>EP Tytuł modułu</term>. Ponadto dozwolone jest zastosowanie stylu tylko w pierwszym akapicie dokumentu.</note>
+            </section>
+            <section id="d3e713">
+               <title>Nagłówki</title>
+               <para id="iyYNlh+6OL"/>
+               <para id="d1111e1">Typ: akapit<newline/>Zestaw zawiera następujące style pozwalające na zdefiniowanie nagłówków poszczególnych sekcji modułu:<newline/>
+                  <list id="d1111e5" list-type="bulleted">
+                     <item>
+                        <term>EP Nagłówek 1</term>
+                     </item>
+                     <item>
+                        <term>EP Nagłówek 2</term>
+                     </item>
+                     <item>
+                        <term>EP Nagłówek 3</term>
+                     </item>
+                  </list>Wszystkie akapity następujące po akapitach oznaczonych jednym z powyższych stylów na etapie konwersji zostają automatycznie umieszczone w odpowiadającej sekcji, lub podsekcji. Przykładem może być niniejszy opis, akapit <link target-id="iyYNlh+6OL">
+                     <emphasis>Nagłówki</emphasis>
+                  </link> został oznaczony stylem <term>EP Nagłówek 3</term>, dlatego też znajduje się on w podsekcji drugiego stopnia, która znajduje się w podsekcji <link target-id="isc4zX6rJ7">
+                     <emphasis>Style podstawowe e-podręczników</emphasis>
+                  </link> (oznaczona stylem <term>EP Nagłówek 2</term>), a ta z kolei znajduje się w sekcji <link target-id="iJ4TcqBzcA">
+                     <emphasis>Style treści</emphasis>
+                  </link> (oznaczona stylem <term>EP Nagłówek 1</term>).</para>
+               <note id="d1137e1" type="important">Formatowanie fragmentów tekstu wewnątrz akapitów oznaczonych jednym ze stylów nagłówka jest ignorowane przez konwerter.</note>
+            </section>
+            <section id="d3e742">
+               <title>Nazwa</title>
+               <para id="d1144e1">Typ: akapit<newline/>Styl <term>EP Nazwa</term> pozwala na nadanie nazwy/tytułu treści oznaczonej komentarzem zawierającym styl komentarza. Styl <term>EP Nazwa</term> może być stosowany do określenia nazwy następujących stylów:<newline/>
+                  <list id="d1144e5" list-type="bulleted">
+                     <item>
+                        <emphasis>EPK Definicja</emphasis>
+                     </item>
+                     <item>
+                        <emphasis>EPK Reguła</emphasis>
+                     </item>
+                     <item>
+                        <emphasis>EPK Ćwiczenie</emphasis>
+                     </item>
+                     <item>
+                        <emphasis>EPK Cytat</emphasis>
+                     </item>
+                     <item>
+                        <emphasis>EPK Kod</emphasis>
+                     </item>
+                  </list>Przykłady zastosowania stylu <term>EP Nazwa</term> znajdują się w opisach wymienionych powyżej stylów.</para>
+            </section>
+            <section id="d3e769">
+               <title>Przykład</title>
+               <para id="idjuX8llye"/>
+               <para id="d1172e1">Typ: akapit<newline/>Styl <term>EP Przykład</term> pozwala na zdefiniowanie przykładu pozwalającego na lepsze wyjaśnienie reguły, czy też definicji. Akapity zdefiniowane jako <term>EP Przykład</term> mogą się też znaleźć w każdym innym miejscu podręcznika.</para>
+               <example id="d1182e1">
+                  <para id="d1182e1para">Ten przykład jest dobrym przykładem zastosowania stylu <term>EP Przykład</term>.</para>
+               </example>
+            </section>
+            <section id="d3e787">
+               <title>Autor</title>
+               <para id="d1191e1">Typ: akapit<newline/>Styl <term>EP Autor</term> pozwala na określenie, kto jest autorem/autorami danej treści. Przykład zastosowania stylu <term>EP Autor</term> znajduje się <link target-id="i+zC8y7OWK">w sekcji poświęconej stylowi komentarza <emphasis>EPK Cytat</emphasis>
+                  </link>, który jest obecnie jedynym stylem, w którym można zastosować styl <term>EP Autor</term>.</para>
+            </section>
+            <section id="d3e798">
+               <title>Notatki</title>
+               <para id="d1209e1">Typ: akapit<newline/>Zestaw zawiera style pozwalające na zdefiniowanie bloku zawierającego dodatkowe informacje dotyczące omawianego zagadnienia np. wskazówkę, czy też ostrzeżenie. Następujące typy notatek mogą być zdefiniowane z wykorzystaniem stylów:<newline/>
+                  <list id="d1209e5" list-type="bulleted">
+                     <item>
+                        <term>EP Notatka – wskazówka</term>
+                     </item>
+                     <item>
+                        <term>EP Notatka – ważne</term>
+                     </item>
+                     <item>
+                        <term>EP Notatka – ostrzeżenie</term>
+                     </item>
+                  </list>Przykłady notatek znajdują się poniżej.<newline/>Wskazówka:</para>
+               <note id="d1225e1" type="tip">Jeżeli włożymy cytrynę na kilka minut do gorącej wody, wyciśniemy z niej dużo więcej soku. </note>
+               <para id="d1229e1">Ważne:</para>
+               <note id="d1233e1" type="important">Należy bardzo dokładnie odmierzyć ilość odczynników, w przeciwnym razie wynik testu może być niewiarygodny.</note>
+               <para id="d1237e1">Ostrzeżenie:</para>
+               <note id="d1241e1" type="warning">Chemiku! Jeśli chcesz być piękny, młody, wlewaj zawsze kwas do wody!</note>
+            </section>
+            <section id="d3e845">
+               <title>Komentarz edycyjny</title>
+               <para id="iO5LtTIL5u"/>
+               <para id="d1249e1">Typ: znak<newline/>Styl <term>EP Komentarz edycyjny</term> pozwala na oznaczenie fragmentu treści, jako komentarza wykorzystywanego <emphasis>tylko i wyłącznie</emphasis> w trakcie edycji. Treść oznaczona tym stylem zostanie zignorowana na etapie konwersji dokumentu. Przykład znajduje się poniżej.</para>
+               <example id="d1259e1">
+                  <para id="d1259e1para"> Ten przykład jest dobrym przykładem zastosowania stylu <emphasis>EP Przykład</emphasis>.</para>
+               </example>
+            </section>
+            <section id="d3e863">
+               <title>Emfaza</title>
+               <para id="d1270e1">Typ: znak<newline/>Styl <term>EP Emfaza</term> pozwala na oznaczenie <emphasis>bardzo ważnego fragmentu tekstu</emphasis>. Styl ten powinien być stosowany zamiast pogrubienia czcionki, czy też kursywy w miejscach, w których należy uwypuklić konkretne słowo, czy też frazę.</para>
+            </section>
+            <section id="d3e874">
+               <title>Określenie</title>
+               <para id="d1283e1">Typ: znak<newline/>Styl <term>EP Określenie</term> pozwala na oznaczenie w tekście definiowanego właśnie określenia, lub też odsyłacza wskazującego na definicję określenia. Przykładem zastosowania może być wykorzystanie stylu w definicji np.<newline/>
+                  <term>Trójkąt</term> to wielokąt o trzech bokach.</para>
+            </section>
+            <section id="d3e888">
+               <title>Cytat</title>
+               <para id="it8FUAQvy6"/>
+               <para id="d1298e1">Typ: znak<newline/>Styl <term>EP Cytat</term> pozwala na oznaczenie fragmentu treści jako cytatu. Przykłady:<newline/>Wiadomym faktem jest, że <quote display="inline">klient w krawacie jest mniej awanturujący się</quote>.</para>
+               <para id="d1310e1">Typ: akapit<newline/>Styl <term>EP Cytat akapit</term> pozwala na oznaczenie całego akapitu jako cytatu. Nadanie nazwy oraz przypisanie autora do cytatu określonego akapitem następuje poprzez wykorzystanie stylów <emphasis>EP Nazwa</emphasis> oraz <emphasis>EP Autor</emphasis> w połączeniu ze stylem <emphasis>EPK Cytat</emphasis> i jest opisane w <link target-id="i+zC8y7OWK">odpowiedniej sekcji poświęconej stylom komentarzy</link>, sekcja ta zawiera również przykład. </para>
+            </section>
+            <section id="d3e910">
+               <title>Definicja</title>
+               <para id="d1329e1">Typ: akapit<newline/>Styl <term>EP Definicja - znaczenie</term> pozwala na wyrażenie znaczenia definicji. Styl ten powinien być wykorzystywany <emphasis>tylko i wyłącznie</emphasis> jako fragment treści oznaczonej komentarzem zawierającym styl komentarza <emphasis>EPK Definicja</emphasis>. Przykład zastosowaniu stylu znajduje się w opisie stylu komentarza <link target-id="iMcDQhnWjY">
+                     <emphasis>EPK Definicja</emphasis>
+                  </link>.</para>
+            </section>
+            <section id="d3e921">
+               <title>Reguła</title>
+               <para id="d1346e1">Typ: akapit<newline/>Zestaw stylów <term>EP Reguła - twierdzenie</term>  oraz <term>EP Reguła - dowód</term> pozwala na zdefiniowanie reguły. Style te powinny być wykorzystywane <emphasis>tylko i wyłącznie</emphasis> jako fragment treści oznaczonej komentarzem zawierającym styl komentarza <emphasis>EPK Reguła</emphasis>. Przykład zastosowaniu stylów znajduje się w opisie stylu komentarza <link target-id="iqDgpKXKSA">
+                     <emphasis>EPK Reguła</emphasis>
+                  </link>.</para>
+            </section>
+            <section id="d3e933">
+               <title>Ćwiczenie</title>
+               <para id="d1365e1">Typ: akapit<newline/>Zestaw stylów <term>EP Ćwiczenie - problem</term>, <term>EP Ćwiczenie - rozwiązanie</term> oraz <term>EP Ćwiczenie - wyjaśnienie</term> pozwala na zdefiniowanie ćwiczenia. Style te powinny być wykorzystywane <emphasis>tylko i wyłącznie</emphasis> jako fragment treści oznaczonej komentarzem zawierającym styl komentarza <emphasis>EPK Ćwiczenie</emphasis>. <newline/>Styl <term>EP Ćwiczenie – problem</term> pozwala na wyrażenie polecenia ćwiczenia, treści zadania. Stylem <term>EP Ćwiczenie - rozwiązanie</term> powinno być oznaczone rozwiązanie ćwiczenia, w sensie <emphasis>samej poprawnej odpowiedzi</emphasis>, natomiast przeznaczeniem stylu <term>EP Ćwiczenie - wyjaśnienie</term>  jest skojarzenie z ćwiczeniem komentarza zawierającego dodatkowe pytania, <emphasis>rozwiązanie ćwiczenia krok po kroku</emphasis> (bez końcowej odpowiedzi, gdyż ta powinna być wyrażona stylem <term>EP Ćwiczenie - rozwiązanie</term>), czy też wariacji ćwiczenia.<newline/>Przykład zastosowaniu stylów znajduje się w opisie stylu komentarza <link target-id="i46gyb4uka">
+                     <emphasis>EPK Ćwiczenie</emphasis>
+                  </link>.</para>
+            </section>
+            <section id="d3e948">
+               <title>Kod</title>
+               <para id="i+XQ93QSPI"/>
+               <para id="d1403e1">Typ: znak<newline/>Styl <term>EP Kod</term> pozwala na oznaczenie fragmentu treści jako kodu źródłowego napisanym w jakimś języku programowania. Przykładem może być jednolinijkowiec napisany w języku <emphasis>Perl</emphasis>: <code lang="PERL">perl -pi.bak -e 's/milion/miliard/' plik.txt</code> pozwalający na zmianę wystąpienia słowa <emphasis>milion</emphasis> na słowo <emphasis>miliard</emphasis> w pliku <emphasis>plik.txt</emphasis> oraz zrobienie kopii zapasowej przetwarzanego pliku i zapisanie jej jako <emphasis>plik.txt.bak</emphasis>. Dodatkowo można określić w jakim języku programowania jest napisany kod, stosuje się do tego <link target-id="iWZu9MXdnu">odpowiedni styl komentarza</link>. </para>
+               <para id="d1426e1">Typ: akapit<newline/>Styl <term>EP Kod akapit</term> pozwala na oznaczenie akapitu, a raczej kilku kolejnych akapitów jako bloku kodu źródłowego napisanego w jakimś języku programowania. Opcjonalne określenie języka programowania, w jakim jest napisany kod następuje w sposób analogiczny do zaprezentowanego w przykładzie stylu znakowego, natomiast nadanie tytułu następuje poprzez wykorzystanie stylów <emphasis>EP Nazwa</emphasis> oraz <emphasis>EPK Kod</emphasis>. Przykładem może skrypt napisany w języku <emphasis>Perl</emphasis> znajdujący się w sekcji poświęconej <link target-id="iWZu9MXdnu">stylowi komentarza kod</link>.</para>
+            </section>
+            <section id="d3e971">
+               <title>Język obcy</title>
+               <para id="d1445e1">Typ: znak<newline/>Styl <term>EP Język obcy</term> pozwala na oznaczenie fragmentu tekstu, który zapisany jest w języku obcym. Możemy wykorzystać go do oznaczenia zarówno pojedynczych wyrazów, jak i całych zdań w stylu: <foreign>Homo sum, humani nihil a me alienum puto</foreign>.</para>
+            </section>
+         </section>
+         <section id="d3e983">
+            <title>Style quizu e-podręczników</title>
+            <para id="iQHtoqptsD"/>
+            <para id="d1461e1">Jedną z grup stylów specjalnych tworzą style quizu e-podręczników, ich nazwa zaczyna się od dużych liter <emphasis>EPQ</emphasis>. Style te pozwalają na semantyczne oznaczenie poszczególnych fragmentów quizów, w tym  testów <emphasis>jednokrotnego wyboru</emphasis>, testów <emphasis>wielokrotnego wyboru</emphasis> oraz testów <emphasis>poprawnej kolejności</emphasis> odpowiedzi. Pośród tej grupy stylów znajdują się jedynie style pozwalające nadać znaczenie całemu akapitowi, nie oznacza to jednak, że w treści pytania, odpowiedzi, czy też wyjaśnienia nie mogą się znaleźć fragmenty tekstu oznaczone podstawowymi stylami znakowymi, w tym m.in. <emphasis>emfaza</emphasis>, <emphasis>cytat</emphasis>, <emphasis>język obcy</emphasis>. Ponadto w treści odpowiedzi mogą znaleźć się <emphasis>łącza</emphasis>, <emphasis>tabele</emphasis>, <emphasis>listy punktowane i numerowane</emphasis>, <emphasis>wyrażenia matematyczne</emphasis>, czy też obiekty nietekstowe wyrażone poprzez <emphasis>referencje do WOMI</emphasis>. W sekcji tej znajduje się szczegółowy opis każdego ze stylów quizu e-podręczników wraz z przykładem.</para>
+            <note id="d1489e1" type="tip">Poszczególne pytania występujące w treści modułu <emphasis>nie pojawią się po przetworzeniu w miejscach, w których występują w źródle module</emphasis>, lecz posłużą do stworzenia <emphasis>jednego quizu</emphasis> dotyczącego omawianego zagadnienia.</note>
+            <section id="d3e998">
+               <title>Pytanie</title>
+               <para id="d1500e1">Typ: akapit<newline/>Styl <term>EPQ Pytanie</term> pozwala na zdefiniowanie pytania do zadania quizu. Styl ten powinien być wykorzystywany <emphasis>tylko i wyłącznie</emphasis> jako fragment treści oznaczonej komentarzem zawierającym styl komentarza <emphasis>EPK Zadanie</emphasis>. <newline/>Przykład zastosowania stylu <term>EPQ Pytanie</term> znajduje się w sekcji poświęconej stylowi <link target-id="iRjGs83fQH">
+                     <emphasis>EPK Zadanie</emphasis>
+                  </link>.</para>
+            </section>
+            <section id="d3e1011">
+               <title>Odpowiedź</title>
+               <para id="d1521e1">Typ: akapit<newline/>Style <term>EPQ Odpowiedź - poprawna</term> oraz <term>EPQ Odpowiedź - błędna</term> pozwalają na zdefiniowanie poprawnych oraz błędnych odpowiedzi do zadania quizu. Style te powinny być wykorzystywane <emphasis>tylko i wyłącznie</emphasis> jako fragment treści oznaczonej komentarzem zawierającym styl komentarza <emphasis>EPK Zadanie</emphasis>.<newline/>Przez liczbę odpowiedzi poprawnych oraz odpowiedzi błędnych zdeterminowany jest typ zadania. Zależność między typem zadania, a liczbą i poprawnością wykorzystanych odpowiedzi kształtuje się następująco:<newline/>
+                  <list id="d1521e6" list-type="bulleted">
+                     <item>zadanie <emphasis>testu jednokrotnego wyboru</emphasis>: jedna odpowiedź prawidłowa, jedna lub wiele odpowiedzi błędnych,</item>
+                     <item>zadanie <emphasis>testu wielokrotnego wyboru</emphasis>: wiele odpowiedzi prawidłowych, co najmniej jedna odpowiedź błędna,</item>
+                     <item>zadanie <emphasis>testu poprawnej kolejności</emphasis>: tylko odpowiedzi prawidłowe.</item>
+                  </list>
+               </para>
+               <note id="d1549e1" type="tip">Kolejność odpowiedzi prawidłowych, dla <emphasis>testu poprawnej kolejności</emphasis>, zdefiniowana w źródle zadania, jest uznawana przez konwerter jako <emphasis>kolejność prawidłowa</emphasis>. Zadanie dla tego typu testu zostanie zaprezentowane uczniowi z odpowiedziami ułożonymi w kolejności losowej. </note>
+               <para id="d1557e1">Przykład zastosowania stylów <term>EPQ Odpowiedź - poprawna</term> oraz <term>EPQ Odpowiedź - błędna</term> znajduje się w sekcji poświęconej stylowi <link target-id="iRjGs83fQH">
+                     <emphasis>EPK Zadanie</emphasis>
+                  </link>.</para>
+            </section>
+            <section id="d3e1042">
+               <title>Wskazówka</title>
+               <para id="d1570e1">Typ: akapit<newline/>Styl <term>EPQ Wskazówka</term> pozwala na zdefiniowanie wskazówek, dzięki którym uczeń może zostać nakierowany na prawidłową odpowiedź, prawidłowe odpowiedzi w zadaniu quizu. Styl ten powinien być wykorzystywany <emphasis>tylko i wyłącznie</emphasis> jako fragment treści oznaczonej komentarzem zawierającym styl komentarza <emphasis>EPK Zadanie</emphasis>.<newline/>Przykład zastosowania stylu <term>EPQ Wskazówka</term> znajduje się w sekcji poświęconej stylowi <link target-id="iRjGs83fQH">
+                     <emphasis>EPK Zadanie</emphasis>
+                  </link>.</para>
+            </section>
+            <section id="d3e1056">
+               <title>Wyjaśnienie</title>
+               <para id="d1591e1">Typ: akapit<newline/>Styl <term>EPQ Wyjaśnienie</term> pozwala na skojarzenie z zadaniem quizu wyjaśnienia, które zostanie zaprezentowane uczniowi po rozwiązaniu zadania, lub też całego testu. Styl ten powinien być wykorzystywany <emphasis>tylko i wyłącznie</emphasis> jako fragment treści oznaczonej komentarzem zawierającym styl komentarza <emphasis>EPK Zadanie</emphasis>.<newline/>Przykład zastosowania stylu <term>EPQ Wyjaśnienie</term> znajduje się w sekcji poświęconej stylowi <link target-id="iRjGs83fQH">
+                     <emphasis>EPK Zadanie</emphasis>
+                  </link>.</para>
+            </section>
+         </section>
+      </section>
+      <section id="d3e1071">
+         <title>Style komentarzy</title>
+         <para id="iALY1+dJHS"/>
+         <para id="d1613e1">
+            <term>Zestaw szybkich stylów e-podręczniki</term> zawiera style komentarzy pozwalające definiować atrybuty poszczególnych fragmentów treści, które nie są częścią treści merytorycznej, lub też nie mogą być wyrażone w inny sposób. Nazwy stylów komentarzy zaczynają się od dużych liter EPK, a ich zastosowanie jest dozwolone <emphasis>jedynie w komentarzach</emphasis> dokumentu. W przypadku stylów komentarzy wyróżniamy dwa typy: typ znakowy, który pozwala przypisać jakąś wartość do komentowanej treści, lub też typ „obecnościowy” – <emphasis>samo pojawienie się stylu w komentarzu</emphasis> niesie za sobą informację, że komentowana treść ma specjalne znaczenie jako całość - powinna być przetworzona w specyficzny sposób (np. zaprezentowana tylko nauczycielowi), lub też stanowi kontener spajający fragment treści (np. jest to zadanie składające się z treści, rozwiązania i wyjaśnienia). Ta sekcja zawiera opis poszczególnych stylów komentarzy wraz z przykładami.</para>
+         <note id="d1622e1" type="warning">Należy zwrócić szczególną uwagę, aby komentarze występujące na niższych poziomach kończyły się w komentarzu w którym się rozpoczęły, w przeciwnym wypadku prawidłowe przetworzenie treści nie będzie możliwe.</note>
+         <section id="d3e1086">
+            <title>Widoczność treści</title>
+            <para id="iMBWclFodN"/>
+            <para id="d1630e1">Opisane w tej sekcji style służą do lokalnego ograniczenia widoczności treści zarówno w zależności od tego, jaka jest rola użytkownika, który posługuje się podręcznikiem (uczeń, nauczyciel), jak i tego jaki poziom kursu użytkownik wybrał (kurs podstawowy – kanon, kurs rozszerzony, itd.). Określenie widoczności na poziomie globalnym modułu treści następuje poprzez zdefiniowanie odpowiednich metadanych. Więcej informacji na ten temat znajduje się w sekcji <link target-id="irOWnZOkhQ">
+                  <emphasis>Metadane</emphasis>
+               </link>.</para>
+            <section id="d3e1096">
+               <title>Status treści</title>
+               <para id="d1639e1">Typ: „obecnościowy”<newline/>Poprzez status treści można określić <emphasis>na poziomie pojedynczego akapitu</emphasis>, czy należy on do kanonu (treści, która musi koniecznie pojawić się w ramach danego tematu), jest treścią rozszerzającą, czy też treścią uzupełniającą. Style statusu treści można zastosować <emphasis>tylko i wyłącznie w przypadku modułu treści oznaczonego globalnie jako kanon</emphasis>, dlatego też istnieją style do oznaczenia treści jako treść rozszerzająca - <term>EPK Status – treść rozszerzająca</term> oraz jako treść uzupełniająca - <term>EPK Status – treść uzupełniająca</term>, nie istnieje natomiast styl dla oznaczenia treści należącej do kanonu. Ponadto treść kanonu nie wymaga zastosowania komentarza. Treść może mieć <emphasis>tylko i wyłącznie jeden status</emphasis>, oznacza to, że opisane tutaj style mają charakter wzajemnie się wykluczający, a zastosowanie w stosunku do fragmentu treści komentarza, lub komentarzy zawierających oba style będzie interpretowane przez konwerter jako błąd.<newline/>Ta treść powinna się pojawić w e-podręczniku jako treść rozszerzająca.<newline/>Ta treść znajdzie się zarówno w podstawowej wersji e-podręcznika, jak i w e-podręczniku rozszerzonym, czy też e-podręczniku zawierającym treści uzupełniające.<newline/>Ta treść powinna się pojawić w e-podręczniku jako treść uzupełniająca.</para>
+            </section>
+            <section id="d3e1115">
+               <title>Adresat treści</title>
+               <para id="d1667e1">Typ: „obecnościowy”<newline/>Poprzez zastosowanie stylu <term>EPK Adresat – nauczyciel</term> można oznaczyć <emphasis>na poziomie pojedynczego akapitu</emphasis> treści, których adresatem jest nauczyciel i nie powinny się one pojawić w e-podręczniku w wersji dla ucznia. Styl ten można zastosować <emphasis>tylko i wyłącznie w przypadku modułu treści oznaczonego globalnie jako uczniowski</emphasis>, w którym to treść domyślnie jest przeznaczona dla ucznia i nie wymaga zastosowania stylu komentarza, ani też komentarza. W przypadku modułu oznaczonego globalnie jako nauczycielski nie ma możliwości oznaczenia fragmentów treści jako treść uczniowska. Przykład treści przeznaczonej dla nauczyciela zawarto w <link target-id="iW98TtxzJN">sekcji poświęconej tabelom</link>.</para>
+            </section>
+            <section id="d3e1126">
+               <title>Zależność między statusem, a adresatem treści</title>
+               <para id="d1684e1">Style statusu treści oraz adresata treści określają dostępność treści na dwóch osobnych płaszczyznach. Oznacza to, że możliwe jest zastosowanie kombinacji stylów. Przykład:<newline/>Treść e-podręcznika dla ucznia należąca do kanonu.<newline/>Treść rozszerzająca e-podręcznika dla ucznia.<newline/>Treść uzupełniająca e-podręcznika dla ucznia.<newline/>Treść e-podręcznika dla nauczyciela należąca do kanonu – np. fragment scenariusza lekcji związany bezpośrednio z poruszanym zagadnieniem.<newline/>Treść rozszerzająca e-podręcznika dla nauczyciela – np. fragment rozszerzonego scenariusza lekcji związany bezpośrednio z poruszanym zagadnieniem.<newline/>Treść uzupełniająca e-podręcznika dla nauczyciela – np. referencja do karty pracy w wersji uzupełniającej związanej bezpośrednio z poruszanym zagadnieniem.  </para>
+            </section>
+            <section id="d3e1148">
+               <title>Ograniczenia związane z przetwarzaniem</title>
+               <para id="d1709e1">Autor powinien zwrócić szczególną uwagę na sposób w jaki wykorzystuje ograniczenia widoczności treści, w szczególności powinien spojrzeć na dokument tak, jakby było to kilka osobnych dokumentów zawierających treść podstawową(kanon), lub treść podstawową wzbogaconą o kombinacje statusu oraz adresata treści. Podejście to uchroni autora przed sytuacjami, w których, np. na skutek oznaczenia fragmentu sekcji (wraz z nagłówkiem) jako treść rozszerzająca, powstałaby niejednoznaczność dotycząca sposobu, w jaki powinna być potraktowana reszta sekcji w przypadku konwersji wersji zawierającej jedynie treść podstawową.</para>
+               <note id="d1713e1" type="tip">Lokalne definiowanie widoczności treści powinno być wykorzystywane w stosunku do niewielkich fragmentów treści, w innym przypadku zaleca się stworzenie osobnego modułu z widocznością zdefiniowaną na poziomie globalnym.</note>
+            </section>
+         </section>
+         <section id="d3e1162">
+            <title>Definiowanie ogólnych atrybutów</title>
+            <para id="d1720e1">Ta sekcja poświęcona jest możliwości przypisania do treści atrybutów ogólnych – atrybutów, które nie przypisują specjalnego znaczenia treści.</para>
+            <section id="d3e1170">
+               <title>Tytuł listy punktowanej lub numerowanej</title>
+               <para id="i5O4jwlXAT"/>
+               <para id="d1728e1">Typ: „obecnościowy”<newline/>Styl <term>EPK Lista</term> pozwala wyznaczyć fragment treści tworzący pojedynczą listę punktowaną lub numerowaną. Wewnątrz wyznaczonego fragmentu treści można zawrzeć <emphasis>jeden</emphasis> komponent wyrażony stylem <emphasis>EP Nazwa</emphasis> oraz <emphasis>jedną</emphasis> listę punktowaną lub numerowaną. Obecnie styl <term>EPK Lista</term> służy jedynie do połączenia listy ze stylem wyrażającym jej tytuł. Przykład:</para>
+               <list id="d3e1183" list-type="bulleted">
+                  <title>Owoce egzotyczne</title>
+                  <item>męczennica jadalna</item>
+                  <item>liczi chińskie</item>
+                  <item>mangostan właściwy</item>
+                  <item>jagodzian rambutan</item>
+                  <item>durian właściwy</item>
+               </list>
+            </section>
+         </section>
+         <section id="d3e1206">
+            <title>Definiowanie atrybutów treści podstawowej</title>
+            <para id="d1761e1">Ta sekcja poświęcona jest możliwości przypisania atrybutów do treści zdefiniowanej z wykorzystaniem stylów podstawowych e-podręczników (stylów zaczynających się od dużych liter <emphasis>EP</emphasis>).</para>
+            <section id="d3e1214">
+               <title>Cytat</title>
+               <para id="i+zC8y7OWK"/>
+               <para id="d1771e1">Typ: „obecnościowy”<newline/>Styl <term>EPK Cytat</term> pozwala wyznaczyć fragment treści tworzący pojedynczy cytat. Wewnątrz wyznaczonego fragmentu treści można zawrzeć <emphasis>jeden</emphasis> komponent wyrażony stylem <emphasis>EP Nazwa</emphasis>, następnie <emphasis>jeden lub więcej</emphasis> komponentów wyrażonych stylem <emphasis>EP Autor</emphasis> oraz wiele kolejnych akapitów stanowiących treść cytatu i wyrażonych stylem <emphasis>EP Cytat akapit</emphasis>. Zastosowanie zarówno stylu EP Nazwa, jak i EP Autor jest opcjonalne, aczkolwiek niepojawienie się żadnego z nich podważa sens wykorzystania stylu <term>EPK Cytat</term> służącego jedynie do połączenia cytatu z tytułem i/lub autorem. <newline/>Przykłady zastosowania znajduje się poniżej.</para>
+               <quote id="d3e1229">
+                  <title>Jestem Wesoły Romek</title>
+                  <para id="d3e1229para">
+                     <emphasis>Stanisław Bareja</emphasis>
+                     <newline/>
+                     <emphasis>Stanisław Tym</emphasis>
+                     <newline/>Dzień dobry, cześć i czołem! Pytacie, skąd się wziąłem?! Jestem Wesoły Romek! Mam na przedmieściu domek, a w domku wodę, światło, gaz! Powtarzam zatem jeszcze raz: jestem Wesoły Romek! Mam...</para>
+               </quote>
+            </section>
+            <section id="d3e1253">
+               <title>Definicja</title>
+               <para id="iMcDQhnWjY"/>
+               <para id="d1807e1">Typ: „obecnościowy”<newline/>Styl <term>EPK Definicja</term> pozwala wyznaczyć fragment treści tworzący pojedynczą definicję. Wewnątrz wyznaczonego fragmentu treści można zawrzeć komponenty wyrażone następującymi stylami:<newline/>
+                  <list id="d1807e5" list-type="bulleted">
+                     <item>
+                        <emphasis>EP Nazwa</emphasis>
+                     </item>
+                     <item>
+                        <emphasis>EP Definicja - znaczenie</emphasis>
+                     </item>
+                     <item>
+                        <emphasis>EP Przykład</emphasis>
+                     </item>
+                  </list>Na początku treści oznaczonej jako <term>EPK Definicja</term>
+                  <emphasis> musi znaleźć się jeden akapit</emphasis> mający styl <emphasis>EP Nazwa</emphasis>. Następnie musi się znaleźć <emphasis>co najmniej jedno znaczenie</emphasis> – akapit mający styl <emphasis>EP Definicja -  znaczenie</emphasis>. Po każdym znaczeniu może <emphasis>opcjonalnie</emphasis> wystąpić jeden lub kilka przykładów oznaczonych stylem <emphasis>EP Przykład</emphasis> związanych z poprzedzającym je znaczeniem definicji. </para>
+               <note id="d1836e1" type="important">Należy pamiętać, że szereg następujących po sobie akapitów tego samego typu jest traktowany w trakcie konwersji <emphasis>jako jeden akapit</emphasis>, dlatego też np. następujące po sobie poszczególne znaczenia definicji, czy też przykłady powinny być oddzielone pustą linią.</note>
+               <para id="d1842e1">Przykład definicji znajduje się poniżej. </para>
+               <definition id="d3e1286">
+                  <term>Zamek</term>
+                  <meaning id="d3e1293">Zespół elementów warownych i budynków mieszkalnych powiązanych w zamknięty obwód obronny.</meaning>
+                  <example id="d3e1298">
+                     <para id="d3e1298para">Zamek w Malborku</para>
+                  </example>
+                  <meaning id="d3e1303">Zapięcie służące do czasowego łączenia dwóch kawałków tkaniny.</meaning>
+               </definition>
+               <para id="d1856e1">Dodatkowy przykład można znaleźć w sekcji poświęconej <link target-id="iQnBrwvf8x">
+                     <emphasis>WOMI</emphasis>
+                  </link>.</para>
+            </section>
+            <section id="d3e1316">
+               <title>Reguła</title>
+               <para id="iqDgpKXKSA"/>
+               <para id="d1866e1">Typ: „obecnościowy” / znak<newline/>Styl <term>EPK Reguła</term> pozwala wyznaczyć fragment treści tworzący pojedynczą regułę. Wewnątrz wyznaczonego fragmentu treści można zawrzeć komponenty wyrażone następującymi stylami:<newline/>
+                  <list id="d1866e5" list-type="bulleted">
+                     <item>
+                        <emphasis>EP Nazwa</emphasis>
+                     </item>
+                     <item>
+                        <emphasis>EP Reguła - twierdzenie</emphasis>
+                     </item>
+                     <item>
+                        <emphasis>EP Reguła - dowód</emphasis>
+                     </item>
+                     <item>
+                        <emphasis>EP Przykład</emphasis>
+                     </item>
+                  </list>Na początku treści oznaczonej jako <term>EPK Reguła </term>
+                  <emphasis>musi znaleźć się jeden </emphasis>akapit mający styl <emphasis>EP Nazwa</emphasis>, następnie <emphasis>musi wystąpić</emphasis> 
+                  <emphasis>co najmniej jeden</emphasis> akapit mający styl <emphasis>EP Reguła - twierdzenie</emphasis>. Następnie może <emphasis>opcjonalnie</emphasis> znaleźć się jeden lub więcej dowodów – akapit mający styl <emphasis>EP Reguła - dowód</emphasis>, po których może pojawić się <emphasis>opcjonalnie</emphasis> jeden lub więcej przykładów oznaczonych stylem <emphasis>EP Przykład</emphasis>.</para>
+               <note id="d1903e1" type="important">Należy pamiętać, że szereg następujących po sobie akapitów tego samego typu jest traktowany w trakcie konwersji <emphasis>jako jeden akapit</emphasis>, dlatego też np. następujące po sobie poszczególne twierdzenia, dowody, czy też przykłady powinny być oddzielone pustą linią.</note>
+               <para id="d1909e1">Ponadto reguła może mieć jeden z następujących typów:<newline/>
+                  <list id="d1909e4" list-type="bulleted">
+                     <item>REGUŁA,</item>
+                     <item>TWIERDZENIE,</item>
+                     <item>LEMAT,</item>
+                     <item>PRAWO,</item>
+                     <item>WŁASNOŚĆ.</item>
+                  </list>Aby określić typ reguły należy zastosować styl <term>EPK Reguła</term> jako styl typu znakowego, a nie „obecnościowego”. Całość treści oznaczonej w ten sposób w komentarzu zostanie wykorzystana jako typ pod warunkiem, że oznaczona treść pokrywa się z jednym z predefiniowanych typów reguły. </para>
+               <note id="d1927e1" type="warning">Należy zwrócić uwagę, że typy predefiniowane pisane są w całości z wykorzystaniem dużych liter. W przypadku użycia małych liter, oznaczenia stylem większego fragmentu tekstu niż sama nazwa, lub błędnej pisowni nazwy typu predefiniowanego prawidłowe przetworzenie typu reguły nie będzie możliwe.</note>
+               <para id="d1931e1">Przykład stworzenia przy pomocy stylów definicji znajduje się poniżej.</para>
+               <rule id="d3e1375" type="theorem">
+                  <title>Twierdzenie Pitagorasa</title>
+                  <statement id="d3e1382">
+                     <para id="d3e1382para">W trójkącie prostokątnym kwadrat długości przeciwprostokątnej równa się sumie kwadratów długości przyprostokątnych.</para>
+                  </statement>
+                  <proof id="d3e1387">
+                     <para id="d3e1387para">Tutaj można wstawić jeden z dowodów twierdzenia</para>
+                  </proof>
+                  <example id="d3e1392">
+                     <para id="d3e1392para">Stosując twierdzenie trójkąta prostokątnego o bokach o długości 3, 4 oraz 5 mamy:<newline/>
+                        <equation>
+                           <mml:math>
+                              <mml:msup >
+                                 <mml:mrow>
+                                    <mml:mn>3</mml:mn>
+                                 </mml:mrow>
+                                 <mml:mrow>
+                                    <mml:mn>2</mml:mn>
+                                 </mml:mrow>
+                              </mml:msup>
+                              <mml:mo >+</mml:mo>
+                              <mml:msup >
+                                 <mml:mrow>
+                                    <mml:mn>4</mml:mn>
+                                 </mml:mrow>
+                                 <mml:mrow>
+                                    <mml:mn>2</mml:mn>
+                                 </mml:mrow>
+                              </mml:msup>
+                              <mml:mo >=</mml:mo>
+                              <mml:mi 
+                                      mathvariant="bold-italic"> </mml:mi>
+                              <mml:msup >
+                                 <mml:mrow>
+                                    <mml:mn>5</mml:mn>
+                                 </mml:mrow>
+                                 <mml:mrow>
+                                    <mml:mn>2</mml:mn>
+                                 </mml:mrow>
+                              </mml:msup>
+                           </mml:math>
+                        </equation>
+                        <newline/>
+                        <equation>
+                           <mml:math>
+                              <mml:mn >9</mml:mn>
+                              <mml:mo >+</mml:mo>
+                              <mml:mn >16</mml:mn>
+                              <mml:mo >=</mml:mo>
+                              <mml:mn >25</mml:mn>
+                           </mml:math>
+                        </equation>
+                        <newline/>
+                        <equation>
+                           <mml:math>
+                              <mml:mn >25</mml:mn>
+                              <mml:mo >=</mml:mo>
+                              <mml:mn >25</mml:mn>
+                           </mml:math>
+                        </equation>
+                     </para>
+                  </example>
+               </rule>
+            </section>
+            <section id="d3e1407">
+               <title>Słowniczek</title>
+               <para id="d2027e1">Typ: „obecnościowy” / znak<newline/>Zestaw stylów <term>EPK Słowniczek - deklaracja</term> oraz <term>EPK Słowniczek – odwołanie</term> pozwala oznaczyć definicję, lub regułę jako treść, która powinna trafić do słowniczka pojęć zdefiniowanych w ramach danego e-podręcznika, a następnie odwołać się do takiego pojęcia w innym miejscu e-podręcznika. <newline/>Styl <term>EPK Słowniczek – deklaracja</term> ma charakter „obecnościowy”. Styl ten może zostać wykorzystany tylko i wyłącznie w połączeniu ze stylami <emphasis>EPK Reguła</emphasis> oraz <emphasis>EPK Definicja</emphasis>, a jego zastosowanie powoduje dodanie pojęcia do słowniczka powstałego w ramach całego e-podręcznika. Referencją danego pojęcia jest nazwa zawarta w treści reguły lub definicji oznaczona stylem <emphasis>EP Nazwa</emphasis>. Przykład zastosowaniu stylów znajduje się w opisie stylu komentarza <link target-id="iMcDQhnWjY">
+                     <emphasis>EPK Definicja</emphasis>
+                  </link> oraz <link target-id="iqDgpKXKSA">
+                     <emphasis>EPK Reguła</emphasis>
+                  </link>, jak również  w sekcji poświęconej <link target-id="iQnBrwvf8x">
+                     <emphasis>WOMI</emphasis>
+                  </link>.<newline/>Styl <term>EPK Słowniczek – odwołanie</term> ma charakter znakowy. Styl ten pozwala na wstawienie odwołania do pojęcia zdefiniowanego przez styl <term>EPK Słowniczek – deklaracja</term>. Treść komentarza oznaczona tym stylem jest jednocześnie kluczem, który jest dopasowywany do nazw zdefiniowanych w słowniczku pojęć, dlatego też ważne jest, aby treść ta była nieodmienioną nazwą pojęcia. Wielkość liter w trakcie dopasowania jest ignorowana. <newline/>Przykład:<newline/>Uchwalenie Konstytucji 3 maja miało miejsce na Zamku Królewskim w Warszawie w roku …</para>
+            </section>
+            <section id="d3e1431">
+               <title>Ćwiczenie</title>
+               <para id="i46gyb4uka"/>
+               <para id="d2069e1">Typ: „obecnościowy”<newline/>Styl <term>EPK Ćwiczenie</term> pozwala wyznaczyć fragment treści tworzący pojedyncze ćwiczenie. Wewnątrz wyznaczonego fragmentu treści można zawrzeć komponenty wyrażone następującymi stylami:<newline/>
+                  <list id="d2069e5" list-type="bulleted">
+                     <item>
+                        <emphasis>EP Nazwa</emphasis>
+                     </item>
+                     <item>
+                        <emphasis>EP Ćwiczenie - problem</emphasis>
+                     </item>
+                     <item>
+                        <emphasis>EP Ćwiczenie - rozwiązanie</emphasis>
+                     </item>
+                     <item>
+                        <emphasis>EP Ćwiczenie - wyjaśnienie</emphasis>
+                     </item>
+                  </list>Na początku treści oznaczonej jako <term>EPK Ćwiczenie</term> 
+                  <emphasis>może znaleźć się jeden akapit</emphasis> mający styl <emphasis>EP Nazwa</emphasis>, następnie <emphasis>musi znaleźć się jeden akapit</emphasis> mający styl <emphasis>EP Ćwiczenie - problem</emphasis>. Następnie może znaleźć się <emphasis>jedno lub więcej rozwiązań</emphasis> – akapit mający styl <emphasis>EP Ćwiczenie - rozwiązanie</emphasis>. Na samym końcu może znajdować się <emphasis>jedno opcjonalne wyjaśnienie</emphasis> – akapit sformatowany stylem <emphasis>EP Ćwiczenie - wyjaśnienie</emphasis>.</para>
+               <note id="d2105e1" type="important">Należy pamiętać, że szereg następujących po sobie akapitów tego samego typu jest traktowany w trakcie konwersji <emphasis>jako jeden akapit</emphasis>, dlatego też np. następujące po sobie poszczególne rozwiązania powinny być oddzielone pustą linią.</note>
+               <para id="d2111e1">Przykład ćwiczenia z wyrażeniami matematycznymi oraz referencjami do <emphasis>WOMI</emphasis>:</para>
+               <exercise id="d3e1466">
+                  <title>Nierówność kwadratowa</title>
+                  <problem id="d3e1473">
+                     <para id="d3e1473para">Rozwiąż nierówność kwadratową<newline/>
+                        <equation>
+                           <mml:math>
+                              <mml:msup >
+                                 <mml:mrow>
+                                    <mml:mi mathvariant="bold-italic">x</mml:mi>
+                                 </mml:mrow>
+                                 <mml:mrow>
+                                    <mml:mn>2</mml:mn>
+                                 </mml:mrow>
+                              </mml:msup>
+                              <mml:mo >-</mml:mo>
+                              <mml:mn >3</mml:mn>
+                              <mml:mi 
+                                      mathvariant="bold-italic">x</mml:mi>
+                              <mml:mo >≥</mml:mo>
+                              <mml:mn >0</mml:mn>
+                           </mml:math>
+                        </equation>
+                     </para>
+                  </problem>
+                  <solution id="d3e1480">
+                     <para id="d3e1480para">
+                        <equation>
+                           <mml:math>
+                              <mml:msup >
+                                 <mml:mrow>
+                                    <mml:mi>x</mml:mi>
+                                 </mml:mrow>
+                                 <mml:mrow>
+                                    <mml:mn>2</mml:mn>
+                                 </mml:mrow>
+                              </mml:msup>
+                              <mml:mo >-</mml:mo>
+                              <mml:mn >3</mml:mn>
+                              <mml:mi >x</mml:mi>
+                              <mml:mo >≥</mml:mo>
+                              <mml:mn >0</mml:mn>
+                              <mml:mo >⇔</mml:mo>
+                              <mml:mi >x</mml:mi>
+                              <mml:mo >∈</mml:mo>
+                              <mml:mfenced  close="]"
+                                           separators="|">
+                                 <mml:mrow>
+                                    <mml:mo>-</mml:mo>
+                                    <mml:mi>∞</mml:mi>
+                                    <mml:mo>;</mml:mo>
+                                    <mml:mn>0</mml:mn>
+                                 </mml:mrow>
+                              </mml:mfenced>
+                              <mml:mo >∪</mml:mo>
+                              <mml:mo >[</mml:mo>
+                              <mml:mn >3</mml:mn>
+                              <mml:mo >;</mml:mo>
+                              <mml:mo >+</mml:mo>
+                              <mml:mi >∞</mml:mi>
+                              <mml:mo >)</mml:mo>
+                              <mml:mi > </mml:mi>
+                           </mml:math>
+                        </equation>
+                     </para>
+                  </solution>
+                  <commentary id="d3e1485">Wyłączając <mml:math>
+                        <mml:mi >x</mml:mi>
+                     </mml:math> poza nawias uzyskujemy<newline/>
+                     <equation>
+                        <mml:math>
+                           <mml:mi >x</mml:mi>
+                           <mml:mi > </mml:mi>
+                           <mml:mfenced 
+                                        separators="|">
+                              <mml:mrow>
+                                 <mml:mi>x</mml:mi>
+                                 <mml:mo>-</mml:mo>
+                                 <mml:mn>3</mml:mn>
+                              </mml:mrow>
+                           </mml:mfenced>
+                           <mml:mo >≥</mml:mo>
+                           <mml:mn >0</mml:mn>
+                        </mml:math>
+                     </equation>
+                     <newline/>Zatem <newline/>funkcja kwadratowa występująca po lewej stronie nierówności ma dwa miejsca zerowe: <mml:math>
+                        <mml:mi >x</mml:mi>
+                        <mml:mo >=</mml:mo>
+                        <mml:mn >0</mml:mn>
+                     </mml:math>, <mml:math>
+                        <mml:mi >x</mml:mi>
+                        <mml:mo >=</mml:mo>
+                        <mml:mn >3</mml:mn>
+                     </mml:math>. <newline/>współczynnik stojący przed <mml:math>
+                        <mml:msup >
+                           <mml:mrow>
+                              <mml:mi>x</mml:mi>
+                           </mml:mrow>
+                           <mml:mrow>
+                              <mml:mn>2</mml:mn>
+                           </mml:mrow>
+                        </mml:msup>
+                     </mml:math> jest dodatni, więc parabola będąca wykresem funkcji kwadratowej „jest uśmiechnięta”<newline/>
+                     <ep:reference ep:id="00102" ep:width="100">
+                     	<ep:content ep:format="classic">xdfgarzg</ep:content><ep:content ep:format="mobile">zhszrth</ep:content><ep:content ep:format="pdf">jht</ep:content><ep:content ep:format="ebook">xduyjd</ep:content>
+                     </ep:reference>
+                     Wykonujemy szkic wykresu<newline/>
+                     <ep:reference ep:id="00103" ep:width="100"/>Odpowiedź na pytanie:<newline/>„Kiedy  <mml:math>
+                        <mml:msup >
+                           <mml:mrow>
+                              <mml:mi>x</mml:mi>
+                           </mml:mrow>
+                           <mml:mrow>
+                              <mml:mn>2</mml:mn>
+                           </mml:mrow>
+                        </mml:msup>
+                        <mml:mo >-</mml:mo>
+                        <mml:mn >3</mml:mn>
+                        <mml:mi >x</mml:mi>
+                        <mml:mo >≥</mml:mo>
+                        <mml:mn >0</mml:mn>
+                     </mml:math>?”<newline/>sprowadza się do odpowiedzi na pytanie: <newline/>„kiedy wykres lewej strony nierówności leży POWYŻEJ osi OX?”</commentary>
+               </exercise>
+               <para id="d2345e1">Przykład ćwiczenia z wykorzystaniem referencji do <emphasis>WOMI</emphasis> w wariancie zredukowanym oraz powiązaniami tekstu z nagraniami odczytania treści przez lektora:</para>
+               <exercise id="d3e1521">
+                  <title> Życzenia dzieci</title>
+                  <problem id="d3e1528">
+                     <para id="d3e1528para">Przeczytaj życzenia i napisz imiona dzieci w kolejności, w jakiej siedzą na ławkach, zaczynając od lewej strony.<newline/>Konrad marzy o lodach,<newline/>Julek o nowej grze.<newline/>Asia chciałaby książkę,<newline/>a Wiktor nawet dwie.<newline/>Zosia chce sukienkę w kwiatki.<newline/>Marzena – nowe wrotki…<newline/>W Dzień Dziecka najlepsze życzenia!<newline/>Niech spełnią się Wasze marzenia!<newline/>
+                        <ep:reference ep:id="00104" ep:width="100"/>
+                     </para>
+                     <para id="d3e1528para_test">Przeczytaj życzenia i napisz imiona dzieci w kolejności, w jakiej siedzą na ławkach, zaczynając od lewej strony.<newline/>Konrad marzy o lodach,<newline/>Julek o nowej grze.<newline/>Asia chciałaby książkę,<newline/>a Wiktor nawet dwie.<newline/>Zosia chce sukienkę w kwiatki.<newline/>Marzena – nowe wrotki…<newline/>W Dzień Dziecka najlepsze życzenia!<newline/>Niech spełnią się Wasze marzenia!<newline/>
+                        <ep:reference ep:id="00101" ep:width="100"/>
+                     </para>
+                  </problem>
+                  <solution id="d3e1552">
+                     <para id="d3e1552para">Wiktor, Asia, Konrad, Julek, Marzenka, Zosia</para>
+                  </solution>
+                  <commentary id="d3e1557">Zwróć uwagę na znajdujące się nad dziećmi „chmurki” z wizerunkami ilustrującymi ich życzenia. Imiona dzieci są powiązane  z życzeniami w treści wiersza. Pierwsze dziecko z lewej strony marzy o dwóch książkach, jest więc to Wiktor. </commentary>
+               </exercise>
+            </section>
+            <section id="d3e1566">
+               <title>Kod</title>
+               <para id="iWZu9MXdnu"/>
+               <para id="d2386e1">Typ: „obecnościowy” / znak<newline/>Styl <term>EPK Kod</term> pozwala na nadanie fragmentowi oznaczonemu stylem <emphasis>EP Kod</emphasis> lub <emphasis>EP Kod akapit</emphasis> atrybutu będącego językiem programowania użytym do napisania kodu. Dodatkowo, w przypadku akapitu, styl ten pozwala powiązać kod z tytułem, w takim przypadku we fragmencie komentowanej treści można zawrzeć <emphasis>jeden</emphasis> komponent wyrażony stylem <emphasis>EP Nazwa</emphasis> oraz wiele kolejnych akapitów stanowiących treść kodu i wyrażonych stylem <emphasis>EP Kod akapit</emphasis>.<newline/>W celu utrzymania spójnej nomenklatury, wielkość znaków użytych w nazwie języka programowania nie ma znaczenia, a wartość powiązana z nazwą pochodzi ze zdefiniowanej w platformie listy. W przypadku, gdy dany język programowania nie został zdefiniowany w platformie, użyta zostanie treść komentarza oznaczona stylem z wszystkimi literami zamienionymi na duże. Przykłady zastosowania stylu w stosunku do akapitu znajduje się poniżej. Natomiast przykład zastosowania stylu w stosunku do fragmentu akapitu oznaczonego stylem <emphasis>EP Kod</emphasis> zawarto w sekcji poświęconej <link target-id="i+XQ93QSPI">stylom kod</link>.</para>
+               <code id="d3e1581" display="block" lang="PERL">
+                  <title>Odwracacz liter w argumentach wywołania</title>
+                  <newline/>#!/usr/bin/perl –w<newline/>use strict;<newline/>print "$_\n" for map {join '',reverse split ''} @ARGV;</code>
+            </section>
+         </section>
+         <section id="d3e1600">
+            <title>Definiowanie atrybutów quizu</title>
+            <para id="d2423e1">Ta sekcja poświęcona jest możliwości przypisania atrybutów do treści zdefiniowanej z wykorzystaniem stylów quizu e-podręczników (stylów zaczynających się od dużych liter <emphasis>EPQ</emphasis>).</para>
+            <section id="d3e1608">
+               <title>Zadanie</title>
+               <para id="iRjGs83fQH"/>
+               <para id="d2433e1">Typ: „obecnościowy”<newline/>Styl <term>EPK Zadanie</term> pozwala wyznaczyć fragment treści definiujący pojedyncze zadanie quizu. Wewnątrz wyznaczonego fragmentu treści można zawrzeć komponenty wyrażone następującymi stylami:<newline/>
+                  <list id="d2433e5" list-type="bulleted">
+                     <item>
+                        <emphasis>EPQ Pytanie</emphasis>
+                     </item>
+                     <item>
+                        <emphasis>EPQ Odpowiedź – poprawna</emphasis>
+                     </item>
+                     <item>
+                        <emphasis>EPQ Odpowiedź – błędna</emphasis>
+                     </item>
+                     <item>
+                        <emphasis>EPQ Wskazówka</emphasis>
+                     </item>
+                     <item>
+                        <emphasis>EPQ Wyjaśnienie</emphasis>
+                     </item>
+                  </list>Na początku treści oznaczonej jako <term>EPK Zadanie</term>
+                  <emphasis> musi znaleźć się jeden lub kilka akapitów</emphasis> mający styl <emphasis>EPQ Pytanie</emphasis>. Następnie muszą się znaleźć <emphasis>co najmniej dwie odpowiedzi</emphasis> – akapity mające styl <emphasis>EPQ Odpowiedź – poprawna</emphasis> lub <emphasis>EPQ Odpowiedź – błędna</emphasis>, w tym co najmniej jedna odpowiedź prawidłowa. Po szereg odpowiedzi można <emphasis>opcjonalnie</emphasis> zdefiniować jedną lub więcej wskazówek – akapity wyrażone stylem <emphasis>EPQ Wskazówka</emphasis> oraz wyjaśnienie <emphasis>EPQ Wyjaśnienie</emphasis>. Znaczenia poszczególnych fragmentów zadania wyjaśnione jest poszczególnych sekcjach opisujących <link target-id="iQHtoqptsD">style quizu</link>. </para>
+               <note id="d2472e1" type="important">Należy pamiętać, że szereg następujących po sobie akapitów tego samego typu jest traktowany w trakcie konwersji <emphasis>jako jeden akapit</emphasis>, dlatego też np. następujące po sobie poszczególne odpowiedzi, czy też wskazówki powinny być oddzielone pustą linią.</note>
+               <para id="d2478e1">Poniżej znajdują się przykłady zadania testu jednokrotnego wyboru, wielokrotnego wyboru oraz poprawnej kolejności.</para>
+               <exercise id="d3e1645">
+                  <q:item id="d3e1645item" type="multiple-response">
+                     <q:question>
+                        <section id="d3e1647">
+                           <para id="d3e1647para">Które z poniższych stwierdzeń na temat bananów są prawdziwe?</para>
+                        </section>
+                     </q:question>
+                     <q:answer id="d3e1645answer1">
+                        <q:response>
+                           <section id="d3e1652">
+                              <para id="d3e1652para">banan są bylinami</para>
+                           </section>
+                        </q:response>
+                     </q:answer>
+                     <q:answer id="d3e1645answer2">
+                        <q:response>
+                           <section id="d3e1657">
+                              <para id="d3e1657para">owoc każdej odmiany bananów jest żółty</para>
+                           </section>
+                        </q:response>
+                     </q:answer>
+                     <q:answer id="d3e1645answer3">
+                        <q:response>
+                           <section id="d3e1662">
+                              <para id="d3e1662para">banany są drzewami</para>
+                           </section>
+                        </q:response>
+                     </q:answer>
+                     <q:answer id="d3e1645answer4">
+                        <q:response>
+                           <section id="d3e1667">
+                              <para id="d3e1667para">istnieje ok. 80 gatunków bananów</para>
+                           </section>
+                        </q:response>
+                     </q:answer>
+                     <q:hint>
+                        <section id="d3e1673">
+                           <para id="d3e1673para">Czy banan ma zdrewniałą łodygę?</para>
+                        </section>
+                     </q:hint>
+                     <q:feedback>
+                        <section id="d3e1678">
+                           <para id="d3e1678para">Banany są roślinami wieloletnimi, niemniej jednak ich łodygi nie są zdrewniałe. Fakt ten nie pozwala zaklasyfikować ich jako rośliny drzewiaste, a co za tym idzie drzewa. Istnieje ok. 80 gatunków bananów, nie wszystkie z nich są jadalne, , nie wszystkie z nich dają żółte owoce. Istnieje odmiana czerwona występująca w Azji.</para>
+                        </section>
+                     </q:feedback>
+                     <q:key answer="d3e1645answer1,d3e1645answer4"/>
+                  </q:item>
+               </exercise>
+               <exercise id="d3e1686">
+                  <q:item id="d3e1686item" type="single-response">
+                     <q:question>
+                        <section id="d3e1688">
+                           <para id="d3e1688para">Czy w treści źródłowej e-podręcznika mogą znajdować się listy punktowane?</para>
+                        </section>
+                     </q:question>
+                     <q:answer id="d3e1686answer1">
+                        <q:response>
+                           <section id="d3e1693">
+                              <para id="d3e1693para">Nie</para>
+                           </section>
+                        </q:response>
+                     </q:answer>
+                     <q:answer id="d3e1686answer2">
+                        <q:response>
+                           <section id="d3e1698">
+                              <para id="d3e1698para">Tak</para>
+                           </section>
+                        </q:response>
+                     </q:answer>
+                     <q:hint>
+                        <section id="d3e1703">
+                           <para id="d3e1703para">Czy w tym module znajdują się listy punktowane?</para>
+                        </section>
+                     </q:hint>
+                     <q:feedback>
+                        <section id="d3e1708">
+                           <para id="d3e1708para">Zastosowanie list punktowanych w treści źródłowej e-podręcznika opisane jest w sekcji <link target-id="iEZYX3A1TU">
+                                 <emphasis>Listy punktowane oraz listy numerowane</emphasis>
+                              </link>.</para>
+                        </section>
+                     </q:feedback>
+                     <q:key answer="d3e1686answer2"/>
+                  </q:item>
+               </exercise>
+               <exercise id="d3e1716">
+                  <q:item id="d3e1716item" type="ordered-response">
+                     <q:question>
+                        <section id="d3e1718">
+                           <para id="d3e1718para">Poniżej znajduje się kilka operatorów wykorzystywanych w języku programowania <emphasis>Perl</emphasis>. Uporządkuj je w kolejności pierwszeństwa zaczynając od operatorów z najwyższym pierwszeństwem.</para>
+                        </section>
+                     </q:question>
+                     <q:answer id="d3e1716answer1">
+                        <q:response>
+                           <section id="d3e1723">
+                              <para id="d3e1723para">
+                                 <code lang="PERL">++</code>
+                              </para>
+                           </section>
+                        </q:response>
+                     </q:answer>
+                     <q:answer id="d3e1716answer2">
+                        <q:response>
+                           <section id="d3e1731">
+                              <para id="d3e1731para">
+                                 <code lang="PERL">=~</code>
+                              </para>
+                           </section>
+                        </q:response>
+                     </q:answer>
+                     <q:answer id="d3e1716answer3">
+                        <q:response>
+                           <section id="d3e1739">
+                              <para id="d3e1739para">
+                                 <code lang="PERL">&amp;&amp;</code>
+                              </para>
+                           </section>
+                        </q:response>
+                     </q:answer>
+                     <q:answer id="d3e1716answer4">
+                        <q:response>
+                           <section id="d3e1747">
+                              <para id="d3e1747para">
+                                 <code lang="PERL">+=</code>
+                              </para>
+                           </section>
+                        </q:response>
+                     </q:answer>
+                     <q:answer id="d3e1716answer5">
+                        <q:response>
+                           <section id="d3e1756">
+                              <para id="d3e1756para">
+                                 <code lang="PERL">and</code>
+                              </para>
+                           </section>
+                        </q:response>
+                     </q:answer>
+                     <q:feedback>
+                        <section id="d3e1764">
+                           <para id="d3e1764para">Kolejność operatorów w języku programowania <emphasis>Perl</emphasis> opisana jest w sekcji <foreign>Operator Precedence and Associativity</foreign> dokumentacji <emphasis>perlop</emphasis>.</para>
+                        </section>
+                     </q:feedback>
+                     <q:key answer="d3e1716answer1,d3e1716answer2,d3e1716answer3,d3e1716answer4,d3e1716answer5"/>
+                  </q:item>
+               </exercise>
+            </section>
+         </section>
+      </section>
+   </content>
+</document>

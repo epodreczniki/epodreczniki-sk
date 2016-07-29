@@ -1,0 +1,4 @@
+<formats>
+    <format id="GRAPHICS_IMAGE_CLASSIC" mainFile="sample1.png"/>
+    <format id="GRAPHICS_IMAGE_MOBILE" mainFile="sample2.png"/>
+</formats>

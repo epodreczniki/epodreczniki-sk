@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<id>{{{WOMI-ID}}}-{{{IMAGE-ID}}}-{{{SCOPE}}}</id>
+	<typWOMI>GRAPHICS</typWOMI>
+	<Autor><![CDATA[{{{AUTHOR}}}]]></Autor>
+	<Licencja><![CDATA[{{{LICENCE}}}]]></Licencja>
+</metadata>

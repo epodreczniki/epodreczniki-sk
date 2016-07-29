@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<col:collection xmlns:col="http://cnx.rice.edu/collxml" xmlns:cnxsi="http://cnx.rice.edu/system-info" xmlns:ep="http://epodreczniki.pl/" xmlns:md="http://cnx.rice.edu/mdml">
+<col:metadata mdml-version="1.2">
+<md:content-id>1337</md:content-id>
+<md:repository>https://epodreczniki.pcss.pl/repo</md:repository>
+<md:version>1</md:version>
+<md:created>2013-08-05 20:02 CEST</md:created>
+<md:revised>2013-09-23 14:50 CEST</md:revised>
+<md:language>pl</md:language>
+<md:license url="http://creativecommons.org/licenses/by/3.0/pl/legalcode"/>
+<md:title>Szkoła podstawowa - Matematyka 4</md:title>
+<md:subtitle>Odkryj, zrozum, zastosuj...</md:subtitle>
+<md:education-levellist>
+<md:education-level>II</md:education-level>
+</md:education-levellist>
+<md:abstract/>
+<ep:e-textbook ep:content-status="canon" ep:recipient="student" ep:version="1.1">
+<ep:class>4</ep:class>
+<ep:signature/>
+<ep:cover ep:cover-type="svg">2290</ep:cover>
+<ep:stylesheet>informatics</ep:stylesheet>
+<ep:environment-type>normal</ep:environment-type>
+</ep:e-textbook>
+<md:actors>
+<md:person userid="1">
+<md:fullname>Jacek Stańdo</md:fullname>
+<md:firstname>Jacek</md:firstname>
+<md:surname>Stańdo</md:surname>
+<md:email>jacek.stando@p.lodz.pl</md:email>
+</md:person>
+<md:person userid="2">
+<md:fullname>Renata Kusztelak</md:fullname>
+<md:firstname>Renata</md:firstname>
+<md:surname>Kusztelak</md:surname>
+<md:email>renata.kusztelak@p.lodz.pl</md:email>
+</md:person>
+<md:person userid="3">
+<md:fullname>Dorota Palka - Rutkowska</md:fullname>
+<md:firstname>Dorota Palka -</md:firstname>
+<md:surname>Rutkowska</md:surname>
+<md:email>dorota.palka-rutkowska@p.lodz.pl</md:email>
+</md:person>
+<md:person userid="4">
+<md:fullname>Jolanta Piekarska</md:fullname>
+<md:firstname>Jolanta</md:firstname>
+<md:surname>Piekarska</md:surname>
+<md:email>jolanta.piekarska@p.lodz.pl</md:email>
+</md:person>
+<md:person userid="5">
+<md:fullname>Marek Pisarski</md:fullname>
+<md:firstname>Marek</md:firstname>
+<md:surname>Pisarski</md:surname>
+<md:email>marek.pisarski@p.lodz.pl</md:email>
+</md:person>
+<md:person userid="6">
+<md:fullname>Izabella Żółtaszek</md:fullname>
+<md:firstname>Izabella</md:firstname>
+<md:surname>Żółtaszek</md:surname>
+<md:email>izabella.zoltaszek@p.lodz.pl</md:email>
+</md:person>
+<md:person userid="7">
+<md:fullname>Dorota Krawczyk - Stańdo</md:fullname>
+<md:firstname>Dorota Krawczyk -</md:firstname>
+<md:surname>Stańdo</md:surname>
+<md:email>krawczyk@p.lodz.pl</md:email>
+</md:person>
+<md:person userid="8">
+<md:fullname>Grzegorz Kusztelak</md:fullname>
+<md:firstname>Grzegorz</md:firstname>
+<md:surname>Kusztelak</md:surname>
+<md:email>gkusztelak@p.lodz.pl</md:email>
+</md:person>
+<md:person userid="9">
+<md:fullname>Witold Walas</md:fullname>
+<md:firstname>Witold</md:firstname>
+<md:surname>Walas</md:surname>
+<md:email>witold.walas@p.lodz.pl</md:email>
+</md:person>
+<md:person userid="10">
+<md:fullname>Henryk Dąbrowski</md:fullname>
+<md:firstname>Henryk</md:firstname>
+<md:surname>Dąbrowski</md:surname>
+<md:email>henryk.dabrowski@.lodz.pl</md:email>
+</md:person>
+<md:person userid="11">
+<md:fullname>Adam Depta</md:fullname>
+<md:firstname>Adam</md:firstname>
+<md:surname>Depta</md:surname>
+<md:email>plda@interia.pl</md:email>
+</md:person>
+<md:person userid="12">
+<md:fullname>Hanna Drabik - Zalewska</md:fullname>
+<md:firstname>Hanna Drabik -</md:firstname>
+<md:surname>Zalewska</md:surname>
+<md:email>hanna.drabik@gmail.com</md:email>
+</md:person>
+<md:person userid="13">
+<md:fullname>Gertruda Gwóźdź - Łukawska</md:fullname>
+<md:firstname>Gertruda Gwóźdź -</md:firstname>
+<md:surname>Łukawska</md:surname>
+<md:email>gertruda@p.lodz.pl</md:email>
+</md:person>
+<md:person userid="14">
+<md:fullname>Andrzej Just</md:fullname>
+<md:firstname>Andrzej</md:firstname>
+<md:surname>Just</md:surname>
+<md:email>ajust@p.lodz.pl</md:email>
+</md:person>
+<md:person userid="15">
+<md:fullname>Krzysztof Kisiel</md:fullname>
+<md:firstname>Krzysztof</md:firstname>
+<md:surname>Kisiel</md:surname>
+<md:email>krzysztof.kisiel@p.lodz.pl</md:email>
+</md:person>
+<md:person userid="16">
+<md:fullname>Dominik Kłys</md:fullname>
+<md:firstname>Dominik</md:firstname>
+<md:surname>Kłys</md:surname>
+<md:email>dominik.kłys@p.lodz.pl</md:email>
+</md:person>
+<md:person userid="17">
+<md:fullname>Iwona Krawczyk-Kłys</md:fullname>
+<md:firstname>Iwona</md:firstname>
+<md:surname>Krawczyk-Kłys</md:surname>
+<md:email>iwona.krawczyk-klys@p.lodz.pl</md:email>
+</md:person>
+<md:person userid="18">
+<md:fullname>Jacek Kucharski</md:fullname>
+<md:firstname>Jacek</md:firstname>
+<md:surname>Kucharski</md:surname>
+<md:email>jkuch@p.lodz.pl</md:email>
+</md:person>
+<md:person userid="19">
+<md:fullname>Paweł Kwiatkowski</md:fullname>
+<md:firstname>Paweł</md:firstname>
+<md:surname>Kwiatkowski</md:surname>
+<md:email>pawel.kwiatkowski@p.lodz.pl</md:email>
+</md:person>
+<md:person userid="20">
+<md:fullname>Alicja Laskowska</md:fullname>
+<md:firstname>Alicja</md:firstname>
+<md:surname>Laskowska</md:surname>
+<md:email>alicja.laskowska@p.lodz.pl</md:email>
+</md:person>
+<md:person userid="21">
+<md:fullname>Piotr Mazur</md:fullname>
+<md:firstname>Piotr</md:firstname>
+<md:surname>Mazur</md:surname>
+<md:email>pmaz@dmcs.pl</md:email>
+</md:person>
+<md:person userid="22">
+<md:fullname>Jan Omieciński</md:fullname>
+<md:firstname>Jan</md:firstname>
+<md:surname>Omieciński</md:surname>
+<md:email>jan.omiecinski@p.lodz.pl</md:email>
+</md:person>
+<md:person userid="23">
+<md:fullname>Bronisław Pabich</md:fullname>
+<md:firstname>Bronisław</md:firstname>
+<md:surname>Pabich</md:surname>
+<md:email>bronisław.pabich@p.lodz.pl</md:email>
+</md:person>
+<md:person userid="24">
+<md:fullname>Iwona Pecyna</md:fullname>
+<md:firstname>Iwona</md:firstname>
+<md:surname>Pecyna</md:surname>
+<md:email>iwona.pecyna@p.lodz.pl</md:email>
+</md:person>
+<md:person userid="25">
+<md:fullname>Alina Saganiak</md:fullname>
+<md:firstname>Alina</md:firstname>
+<md:surname>Saganiak</md:surname>
+<md:email>alina.saganiak@p.lodz.pl</md:email>
+</md:person>
+<md:person userid="26">
+<md:fullname>Bartosz Sakowicz</md:fullname>
+<md:firstname>Bartosz</md:firstname>
+<md:surname>Sakowicz</md:surname>
+<md:email>sakowicz@dmcs.pl</md:email>
+</md:person>
+<md:person userid="27">
+<md:fullname>Izabela Sakwa</md:fullname>
+<md:firstname>Izabela</md:firstname>
+<md:surname>Sakwa</md:surname>
+<md:email>izabela.sakwa@p.lodz.pl</md:email>
+</md:person>
+<md:person userid="28">
+<md:fullname>Sławomir Sapanowski</md:fullname>
+<md:firstname>Sławomir</md:firstname>
+<md:surname>Sapanowski</md:surname>
+<md:email>slawomir.sapanowski@p.lodz.pl</md:email>
+</md:person>
+<md:person userid="29">
+<md:fullname>Jolanta Schilling</md:fullname>
+<md:firstname>Jolanta</md:firstname>
+<md:surname>Schilling</md:surname>
+<md:email>jolanta.schilling@p.lodz.pl</md:email>
+</md:person>
+<md:person userid="30">
+<md:fullname>Marzena Sławińska</md:fullname>
+<md:firstname>Marzena</md:firstname>
+<md:surname>Sławińska</md:surname>
+<md:email>marzena.slawinska@p.lodz.pl</md:email>
+</md:person>
+<md:person userid="31">
+<md:fullname>Iwona Staniec</md:fullname>
+<md:firstname>Iwona</md:firstname>
+<md:surname>Staniec</md:surname>
+<md:email>istan@p.lodz.pl</md:email>
+</md:person>
+<md:person userid="32">
+<md:fullname>Aneta Stasiak</md:fullname>
+<md:firstname>Aneta</md:firstname>
+<md:surname>Stasiak</md:surname>
+<md:email>aneta.stasiak@p.lodz.pl</md:email>
+</md:person>
+<md:person userid="33">
+<md:fullname>Katarzyna Szczepaniak</md:fullname>
+<md:firstname>Katarzyna</md:firstname>
+<md:surname>Szczepaniak</md:surname>
+<md:email>katarzyna.szczepaniak.1@p.lodz.pl</md:email>
+</md:person>
+<md:person userid="34">
+<md:fullname>Bożenna Szkopińska</md:fullname>
+<md:firstname>Bożenna</md:firstname>
+<md:surname>Szkopińska</md:surname>
+<md:email>bozena.szkopinska@p.lodz.pl</md:email>
+</md:person>
+<md:person userid="35">
+<md:fullname>Renata Wojtuś</md:fullname>
+<md:firstname>Renata</md:firstname>
+<md:surname>Wojtuś</md:surname>
+<md:email>renata.wojtus@p.lodz.pl</md:email>
+</md:person>
+<md:person userid="36">
+<md:fullname>Katarzyna Szablewska</md:fullname>
+<md:firstname>Katarzyna</md:firstname>
+<md:surname>Szablewska</md:surname>
+<md:email>katarzyna.szablewska@p.lodz.pl</md:email>
+</md:person>
+<md:person userid="37">
+<md:fullname>Agnieszka Zajączkowska</md:fullname>
+<md:firstname>Agnieszka</md:firstname>
+<md:surname>Zajączkowska</md:surname>
+<md:email>agnieszka.zajaczkowska@p.lodz.pl</md:email>
+</md:person>
+<md:person userid="38">
+<md:fullname>Kinga Antonijczuk</md:fullname>
+<md:firstname>Kinga</md:firstname>
+<md:surname>Antonijczuk</md:surname>
+<md:email>kinga.antonijczuk@p.lodz.pl</md:email>
+</md:person>
+</md:actors>
+<md:roles>
+<md:role type="author">1</md:role>
+<md:role type="author">2</md:role>
+<md:role type="author">3</md:role>
+<md:role type="author">4</md:role>
+<md:role type="author">5</md:role>
+<md:role type="author">6</md:role>
+<md:role type="author">7</md:role>
+<md:role type="author">8</md:role>
+<md:role type="author">9</md:role>
+<md:role type="author">10</md:role>
+<md:role type="author">11</md:role>
+<md:role type="author">12</md:role>
+<md:role type="author">13</md:role>
+<md:role type="author">14</md:role>
+<md:role type="author">15</md:role>
+<md:role type="author">16</md:role>
+<md:role type="author">17</md:role>
+<md:role type="author">18</md:role>
+<md:role type="author">19</md:role>
+<md:role type="author">20</md:role>
+<md:role type="author">21</md:role>
+<md:role type="author">22</md:role>
+<md:role type="author">23</md:role>
+<md:role type="author">24</md:role>
+<md:role type="author">25</md:role>
+<md:role type="author">26</md:role>
+<md:role type="author">27</md:role>
+<md:role type="author">28</md:role>
+<md:role type="author">29</md:role>
+<md:role type="author">30</md:role>
+<md:role type="author">31</md:role>
+<md:role type="author">32</md:role>
+<md:role type="author">33</md:role>
+<md:role type="author">34</md:role>
+<md:role type="author">35</md:role>
+<md:role type="author">36</md:role>
+<md:role type="author">37</md:role>
+<md:role type="author">38</md:role>
+</md:roles>
+</col:metadata>
+<col:content>
+<col:subcollection>
+<ep:view-attributes><ep:view-attribute ep:id="6974" ep:type="panorama"/></ep:view-attributes>
+<md:title>Liczby naturalne na osi liczbowej</md:title>
+<col:content>
+<col:module cnxsi:version-at-this-collection-version="1" document="i2dnVn3HHk" repository="https://epodreczniki.pcss.pl/repo/module/" url="https://epodreczniki.pcss.pl/repo/Content/983/1_Wprowadzenie_x.xml?moduleId=i2dnVn3HHk" version="1">
+<md:title>Wprowadzenie</md:title>
+</col:module>
+<col:module cnxsi:version-at-this-collection-version="1" document="ifp3V1olu1" repository="https://epodreczniki.pcss.pl/repo/module/" url="https://epodreczniki.pcss.pl/repo/Content/984/2_Definicja_z_przykladami_x.xml?moduleId=ifp3V1olu1" version="1">
+<md:title>Definicja z przykładami</md:title>
+</col:module>
+<col:module cnxsi:version-at-this-collection-version="1" document="iDODp1AzKn" repository="https://epodreczniki.pcss.pl/repo/module/" url="https://epodreczniki.pcss.pl/repo/Content/985/3_Zadania_x.xml?moduleId=iDODp1AzKn" version="1">
+<md:title>Zadania</md:title>
+</col:module>
+</col:content>
+</col:subcollection>
+<col:subcollection>
+<md:title>Mnożenie pamięciowe liczb naturalnych</md:title>
+<col:content>
+<col:module cnxsi:version-at-this-collection-version="1" document="iNX4hHj6J5" repository="https://epodreczniki.pcss.pl/repo/module/" url="https://epodreczniki.pcss.pl/repo/Content/986/1_Wprowadzenie_x.xml?moduleId=iNX4hHj6J5" version="1">
+<md:title>Wprowadzenie</md:title>
+</col:module>
+<col:module cnxsi:version-at-this-collection-version="1" document="iIQlNnqC5N" repository="https://epodreczniki.pcss.pl/repo/module/" url="https://epodreczniki.pcss.pl/repo/Content/987/2_Tabliczka_mnozenia_x.xml?moduleId=iIQlNnqC5N" version="1">
+<md:title>Tabliczka mnożenia</md:title>
+</col:module>
+<col:module cnxsi:version-at-this-collection-version="1" document="iikGp028xG" repository="https://epodreczniki.pcss.pl/repo/module/" url="https://epodreczniki.pcss.pl/repo/Content/988/3_Definicja_i_przyklady_x.xml?moduleId=iikGp028xG" version="1">
+<md:title>Definicja i przykłady</md:title>
+</col:module>
+<col:module cnxsi:version-at-this-collection-version="1" document="i2RujZNCgV" repository="https://epodreczniki.pcss.pl/repo/module/" url="https://epodreczniki.pcss.pl/repo/Content/989/4_Wlasnosci_mnozenia_x.xml?moduleId=i2RujZNCgV" version="1">
+<md:title>Własności mnożenia</md:title>
+</col:module>
+<col:module cnxsi:version-at-this-collection-version="1" document="ivaJjIPJ1P" repository="https://epodreczniki.pcss.pl/repo/module/" url="https://epodreczniki.pcss.pl/repo/Content/990/5_Metody_mnozenia_x.xml?moduleId=ivaJjIPJ1P" version="1">
+<md:title>Metody mnożenia</md:title>
+</col:module>
+<col:module cnxsi:version-at-this-collection-version="1" document="isjSpw24ML" repository="https://epodreczniki.pcss.pl/repo/module/" url="https://epodreczniki.pcss.pl/repo/Content/991/6_Zadania_x.xml?moduleId=isjSpw24ML" version="1">
+<md:title>Zadania</md:title>
+</col:module>
+</col:content>
+</col:subcollection>
+<col:subcollection>
+<ep:view-attributes><ep:view-attribute ep:id="12345" ep:type="panorama"/></ep:view-attributes>
+<md:title>Porównywanie ilorazowe</md:title>
+<col:content>
+<col:module cnxsi:version-at-this-collection-version="1" document="iZhI7ppbS4" repository="https://epodreczniki.pcss.pl/repo/module/" url="https://epodreczniki.pcss.pl/repo/Content/992/1_Wprowadzenie_x.xml?moduleId=iZhI7ppbS4" version="1">
+<md:title>Wprowadzenie</md:title>
+</col:module>
+<col:module cnxsi:version-at-this-collection-version="1" document="iN4totCdpl" repository="https://epodreczniki.pcss.pl/repo/module/" url="https://epodreczniki.pcss.pl/repo/Content/993/2_Zadania_cz._1_x.xml?moduleId=iN4totCdpl" version="1">
+<md:title>Zadania cz. 1</md:title>
+</col:module>
+<col:module cnxsi:version-at-this-collection-version="2" document="izzCaHKpcN" repository="https://epodreczniki.pcss.pl/repo/module/" url="https://epodreczniki.pcss.pl/repo/Content/994/3_Zadania_cz._2_x.xml?moduleId=izzCaHKpcN" version="1">
+<md:title>Zadania cz. 2</md:title>
+</col:module>
+</col:content>
+</col:subcollection>
+</col:content>
+</col:collection>
